@@ -1,3 +1,5 @@
+<!-- options-digest: f62a1117c00f -->
+
 ## Question
 
 ما الطريقة القياسية للسماح بحركة من namespace محددة بالاسم، مثل monitoring، داخل NetworkPolicy؟

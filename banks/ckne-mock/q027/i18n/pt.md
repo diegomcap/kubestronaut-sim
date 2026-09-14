@@ -1,3 +1,5 @@
+<!-- options-digest: 48a3c23db5e1 -->
+
 ## Question
 
 O que faz um Service do tipo ExternalName?

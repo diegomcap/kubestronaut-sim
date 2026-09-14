@@ -1,3 +1,5 @@
+<!-- options-digest: 12ffcefc1f45 -->
+
 ## Question
 
 Par défaut, quelle transformation subit le trafic d'un pod vers une destination hors du cluster en quittant le nœud ?

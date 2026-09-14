@@ -1,3 +1,5 @@
+<!-- options-digest: a034ead62a6b -->
+
 ## Question
 
 Новый узел остаётся NotReady с condition «container runtime network not ready: cni plugin not initialized». Что проверить?

@@ -1,3 +1,5 @@
+<!-- options-digest: 99ec7f6ad2f7 -->
+
 ## Question
 
 لماذا تكون شهادات workload في service mesh، أو SVIDs، قصيرة العمر وتتجدد تلقائياً؟

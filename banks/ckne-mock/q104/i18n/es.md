@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 ¿Cómo permite un RANGO de puertos (por ejemplo, 30000 a 32767) en una sola regla de NetworkPolicy?

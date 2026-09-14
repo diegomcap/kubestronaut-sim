@@ -1,3 +1,5 @@
+<!-- options-digest: caa257cc2129 -->
+
 ## Question
 
 يجب السماح فقط بـ GET /public/* وحجب POST والمسارات الأخرى باستخدام network policy في CNI. ماذا يتطلب ذلك؟

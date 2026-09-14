@@ -1,3 +1,5 @@
+<!-- options-digest: 3669f8299c0a -->
+
 ## Question
 
 Conexões falham intermitentemente sob carga e o dmesg do nó mostra "nf_conntrack: table full, dropping packet". Qual métrica confirma e qual a correção?

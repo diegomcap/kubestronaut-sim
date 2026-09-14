@@ -520,6 +520,8 @@ Each translation is one file per question,
 `banks/<bank-id>/<qid>/i18n/<lang>.md`, in three sections:
 
 ```markdown
+<!-- options-digest: 643f76d46c51 -->
+
 ## Question
 
 Em qual diretório o kubelet procura os arquivos de configuração CNI?
@@ -538,9 +540,17 @@ Em qual diretório o kubelet procura os arquivos de configuração CNI?
 
 - **The option order is exam.yaml's.** The key is shared: an answer is
   stored as an index, so a translation that reorders its options would
-  silently change what a stored selection means. `exam.Load` refuses a
-  bank whose translation has a different option count, and
-  [bank-mcq.sh](../tests/bank-mcq.sh) checks the count offline.
+  silently change what a stored selection means — the one mistake that
+  loads clean and inverts scoring. Two guards, at load and in
+  [bank-mcq.sh](../tests/bank-mcq.sh): the file's `options-digest` line
+  must be the digest of exam.yaml's options as they are now — the first
+  12 hex of SHA-256 over the options joined by newline (`exam.OptionsDigest`)
+  — so a list reordered or edited after translation is refused until the
+  translation is redone; and any translated option that is textually
+  identical to an exam.yaml option (a path, a flag, a component name,
+  which translators leave alone) must sit at the same index, which
+  catches a hand-reordered list the digest cannot see. A different option
+  count fails the same way.
 - `## Options` is for mcq banks; a hands-on translation carries
   `## Question` and `## Solution` only.
 - Codes are two- or three-letter tags with an optional region (`pt`,

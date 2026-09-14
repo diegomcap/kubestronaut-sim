@@ -1,3 +1,5 @@
+<!-- options-digest: c3c006b41b9c -->
+
 ## Question
 
 Un Service ExternalName apunta a api.partner.com y los clientes llaman https://my-alias.default.svc.cluster.local. TLS falla. ¿Por qué?

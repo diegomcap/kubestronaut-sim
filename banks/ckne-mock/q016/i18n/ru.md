@@ -1,3 +1,5 @@
+<!-- options-digest: 30c2c8ebca47 -->
+
 ## Question
 
 Pod находится в состоянии Running, но не получает трафик от Service. `kubectl get endpointslices` показывает endpoint с ready: false. Какова наиболее вероятная причина?

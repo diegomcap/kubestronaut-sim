@@ -1,3 +1,5 @@
+<!-- options-digest: 2c1d248f0739 -->
+
 ## Question
 
 Al anunciar el mismo VIP LoadBalancer mediante BGP desde varios nodos, ¿qué mecanismo del router distribuye el tráfico entre ellos?

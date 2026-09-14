@@ -1,3 +1,5 @@
+<!-- options-digest: f70cd231b9f4 -->
+
 ## Question
 
 Qual API padroniza descoberta de serviços entre múltiplos clusters (Multi-Cluster Services), e qual domínio DNS ela usa?

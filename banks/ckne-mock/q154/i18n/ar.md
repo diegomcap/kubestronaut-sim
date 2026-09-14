@@ -1,3 +1,5 @@
+<!-- options-digest: 5350e8b68fd8 -->
+
 ## Question
 
 تحتوي NetworkPolicy على policyTypes: [Ingress] لكن الكاتب أضاف أيضاً block باسم egress. ما تأثير block egress؟

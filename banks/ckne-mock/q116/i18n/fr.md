@@ -1,3 +1,5 @@
+<!-- options-digest: 7136aaa15173 -->
+
 ## Question
 
 Au-delà de l'identité mTLS des workloads, comment valider les JWT des UTILISATEURS FINAUX sur les requêtes atteignant un service Istio ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 En un CNI con modo de enrutamiento nativo (sin encapsulación), ¿qué espera ver en `ip route` del nodo?

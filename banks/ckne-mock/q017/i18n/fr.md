@@ -1,3 +1,5 @@
+<!-- options-digest: f406b8e66c9a -->
+
 ## Question
 
 Quelle ressource a remplacé l'objet Endpoints comme mécanisme principal et scalable de suivi des backends d'un Service ?

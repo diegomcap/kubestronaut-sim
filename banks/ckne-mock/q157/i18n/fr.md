@@ -1,3 +1,5 @@
+<!-- options-digest: be8bc635cb1a -->
+
 ## Question
 
 Une policy INGRESS autorise le trafic vers le pod sur 8080, mais AUCUNE policy egress n'autorise les réponses. Les connexions marchent-elles ?

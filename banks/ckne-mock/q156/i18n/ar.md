@@ -1,3 +1,5 @@
+<!-- options-digest: 0d3874d224a4 -->
+
 ## Question
 
 pod يستخدم hostNetwork: true يستطيع الوصول إلى pods تحميها NetworkPolicy تسمح فقط بـ podSelectors محددة، والوصول يعمل. لماذا؟

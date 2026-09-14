@@ -1,3 +1,5 @@
+<!-- options-digest: 42d32d1e302e -->
+
 ## Question
 
 O painel mostra explosão de NXDOMAIN no CoreDNS e o time suspeita de ataque. As consultas são todas do tipo api.stripe.com.default.svc.cluster.local. Qual é o diagnóstico correto?

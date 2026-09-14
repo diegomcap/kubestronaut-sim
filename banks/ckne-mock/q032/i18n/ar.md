@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 تنقطع طلبات streaming عبر SSE من LLM خلف Gateway بعد نحو 30 ثانية. ما الإصلاح الصحيح؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 7136aaa15173 -->
+
 ## Question
 
 Além da identidade mTLS entre workloads, como validar tokens JWT de USUÁRIOS FINAIS nas requisições que chegam a um serviço no Istio?

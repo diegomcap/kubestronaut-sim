@@ -1,3 +1,5 @@
+<!-- options-digest: bc3124b04e79 -->
+
 ## Question
 
 Welcher Befehl validiert auf einmal Pod-zu-Pod, Pod-zu-Service, DNS, Policies und (falls aktiv) Verschlüsselung in einem Cilium-Cluster?

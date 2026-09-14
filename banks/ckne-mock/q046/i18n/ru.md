@@ -1,3 +1,5 @@
+<!-- options-digest: e6656650e0cc -->
+
 ## Question
 
 Какие метрики CoreDNS наиболее полезны для обнаружения деградации DNS кластера в Prometheus?

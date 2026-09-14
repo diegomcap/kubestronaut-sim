@@ -1,3 +1,5 @@
+<!-- options-digest: 9a731325b9e9 -->
+
 ## Question
 
 Endpoints corrects, pod-à-pod par IP OK, mais l'accès via ClusterIP échoue depuis tous les pods d'UN nœud précis. Suspect principal ?

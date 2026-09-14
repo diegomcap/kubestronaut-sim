@@ -1,3 +1,5 @@
+<!-- options-digest: b1e983ffe96a -->
+
 ## Question
 
 Каково основное сетевое требование между соединёнными кластерами в Cilium Cluster Mesh?

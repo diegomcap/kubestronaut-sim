@@ -1,3 +1,5 @@
+<!-- options-digest: c6890f34b3e6 -->
+
 ## Question
 
 Para rastrear uma requisição fim-a-fim através de gateway → serviço A → serviço B, qual padrão/tecnologia é usado, e o que precisa ser propagado?

@@ -1,3 +1,5 @@
+<!-- options-digest: 82bb4895b27a -->
+
 ## Question
 
 ماذا يفعل الحقل internalTrafficPolicy: Local في Service؟

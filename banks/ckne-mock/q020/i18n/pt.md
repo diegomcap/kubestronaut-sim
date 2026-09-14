@@ -1,3 +1,5 @@
+<!-- options-digest: 0c814eadb4b3 -->
+
 ## Question
 
 Um HTTPRoute em um namespace diferente do Gateway não está funcionando. O que normalmente precisa ser ajustado?

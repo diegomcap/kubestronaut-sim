@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 После перезапуска pod график rate(container_network_transmit_bytes_total[5m]) для workload остаётся корректным, хотя counter сбросился в ноль. Почему?

@@ -1,3 +1,5 @@
+<!-- options-digest: 2c1d248f0739 -->
+
 ## Question
 
 عند إعلان VIP نفسه لـ LoadBalancer عبر BGP من عدة عقد، أي آلية في router توزع الحركة بينها؟

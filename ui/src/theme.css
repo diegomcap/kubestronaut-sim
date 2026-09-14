@@ -928,6 +928,7 @@ button.nav-menu-item:hover {
 }
 
 .lang-chip {
+  min-height: var(--tap-min);
   padding: var(--space-2) var(--space-4);
   border: 1.5px solid var(--border-strong);
   border-radius: var(--radius-pill);
@@ -1937,6 +1938,24 @@ button.nav-menu-item:hover {
   border: 1px solid var(--border);
   padding: 0.1em 0.3em;
   border-radius: var(--radius-xs);
+}
+
+/* An attempt in a right-to-left language sets dir="rtl" on the question,
+   options and solution. Code is not prose: a YAML fragment, a kubectl
+   line or a path reads left-to-right in every language, so code blocks
+   and inline code opt back out of the inherited direction. `unicode-bidi:
+   isolate` keeps a code span from re-ordering the Arabic around it. */
+[dir="rtl"] .md pre,
+[dir="rtl"] .md pre code {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
+[dir="rtl"] .md code,
+[dir="rtl"] .mcq-option-text code {
+  direction: ltr;
+  unicode-bidi: isolate;
 }
 
 .copy-value {

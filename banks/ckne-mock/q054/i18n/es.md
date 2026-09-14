@@ -1,3 +1,5 @@
+<!-- options-digest: c89b7d7d5e22 -->
+
 ## Question
 
 En un archivo .conflist de CNI, ¿cuál es la finalidad del array "plugins" con varias entradas (por ejemplo, cilium, portmap, bandwidth)?

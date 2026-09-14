@@ -1,3 +1,5 @@
+<!-- options-digest: 924124b4af1d -->
+
 ## Question
 
 ¿Cuál es la prueba más rápida para validar al mismo tiempo DNS y la conectividad básica de un cluster nuevo?

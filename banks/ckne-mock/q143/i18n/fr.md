@@ -1,3 +1,5 @@
+<!-- options-digest: 454d5399a39a -->
+
 ## Question
 
 Pendant un rollout, les nouveaux pods entrent ready dans l'EndpointSlice et reçoivent IMMÉDIATEMENT du trafic, mais renvoient des 502 pendant ~3 s. La readinessProbe passe. Où est le piège ?

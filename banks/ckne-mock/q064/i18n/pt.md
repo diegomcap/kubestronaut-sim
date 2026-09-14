@@ -1,3 +1,5 @@
+<!-- options-digest: a034ead62a6b -->
+
 ## Question
 
 Um nó recém-adicionado permanece NotReady com a condição "container runtime network not ready: cni plugin not initialized". O que verificar?

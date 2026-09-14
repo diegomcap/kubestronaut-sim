@@ -1,3 +1,5 @@
+<!-- options-digest: d745a2a9eab5 -->
+
 ## Question
 
 تريد توجيه كل استعلامات corp.example.com إلى DNS الشركة 10.50.0.2. ماذا تعدّل في CoreDNS؟

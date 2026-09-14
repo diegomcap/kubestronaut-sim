@@ -1,3 +1,5 @@
+<!-- options-digest: 2de98712ce92 -->
+
 ## Question
 
 Um einem Pod ein zweites Netzwerk-Interface zu geben (z. B. eine dedizierte NIC für Storage-Traffic) — welche Lösung und welche Ressource?

@@ -1,3 +1,5 @@
+<!-- options-digest: d9181c058424 -->
+
 ## Question
 
 Pour mesurer disponibilité et latence des endpoints de bout en bout (depuis l'extérieur), en simulant l'expérience utilisateur, quelle approche ?

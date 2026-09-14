@@ -1,3 +1,5 @@
+<!-- options-digest: a23976445eef -->
+
 ## Question
 
 ما الميزة الأساسية لوضع IPVS في kube-proxy مقارنة بوضع iptables؟

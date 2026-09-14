@@ -1,3 +1,5 @@
+<!-- options-digest: abdde3555967 -->
+
 ## Question
 
 Что такое exemplars в Prometheus и как они помогают диагностировать сетевую задержку?

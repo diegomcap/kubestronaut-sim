@@ -1,3 +1,5 @@
+<!-- options-digest: a823c5e922ad -->
+
 ## Question
 
 Каковы основные компоненты Submariner для соединения кластеров?

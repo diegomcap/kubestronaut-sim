@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 تريد تعريض قاعدة PostgreSQL على TCP/5432 عبر Gateway مع توجيه L4. أي مورد في Gateway API تستخدم؟

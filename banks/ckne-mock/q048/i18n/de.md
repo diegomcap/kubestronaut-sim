@@ -1,3 +1,5 @@
+<!-- options-digest: c6890f34b3e6 -->
+
 ## Question
 
 Um einen Request Ende-zu-Ende durch Gateway → Service A → Service B zu verfolgen — welches Muster/welche Technologie, und was muss propagiert werden?

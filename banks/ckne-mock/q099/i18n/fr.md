@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 Dans une topologie Istio multi-cluster à réseaux distincts (pas de pod-à-pod direct), quel composant fait passer le trafic de services entre clusters ?

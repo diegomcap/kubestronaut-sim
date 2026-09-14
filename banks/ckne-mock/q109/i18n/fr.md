@@ -1,3 +1,5 @@
+<!-- options-digest: 7eca12b223e7 -->
+
 ## Question
 
 Avec IPsec dans Cilium, où est stockée la clé et quelle pratique opérationnelle est requise ?

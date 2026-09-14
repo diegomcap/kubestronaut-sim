@@ -1,3 +1,5 @@
+<!-- options-digest: 643f76d46c51 -->
+
 ## Question
 
 In welchem Verzeichnis sucht das Kubelet standardmäßig nach CNI-Netzwerkkonfigurationsdateien?

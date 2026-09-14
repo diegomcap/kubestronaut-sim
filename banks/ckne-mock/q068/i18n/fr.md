@@ -1,3 +1,5 @@
+<!-- options-digest: ee9fd246e1e8 -->
+
 ## Question
 
 Pourquoi `ip netns list` sur le nœud est-il souvent vide malgré des dizaines de pods, et quelle commande liste les vrais namespaces réseau ?

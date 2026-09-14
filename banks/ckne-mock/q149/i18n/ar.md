@@ -1,3 +1,5 @@
+<!-- options-digest: 5ea9fc69958a -->
+
 ## Question
 
 في Inference Extension، كيف يرسل HTTPRoute الحركة إلى InferencePool بدلاً من Service؟

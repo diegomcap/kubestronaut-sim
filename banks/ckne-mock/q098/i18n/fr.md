@@ -1,3 +1,5 @@
+<!-- options-digest: 2dc0e5e5fcba -->
+
 ## Question
 
 Avant de promouvoir une nouvelle version, vous voulez lui envoyer une COPIE du trafic réel de production, sans que ses réponses touchent les clients. Quel filtre HTTPRoute ?

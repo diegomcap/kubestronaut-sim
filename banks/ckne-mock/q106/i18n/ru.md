@@ -1,3 +1,5 @@
+<!-- options-digest: 89158e7736a6 -->
+
 ## Question
 
 Как в Calico создать явный deny с приоритетом над allow rules?

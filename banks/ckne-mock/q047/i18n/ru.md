@@ -1,3 +1,5 @@
+<!-- options-digest: f936b4dc4f3b -->
+
 ## Question
 
 Какой инструмент экосистемы Cilium предоставляет видимость сетевых потоков L3–L7, включая verdicts policies FORWARDED/DROPPED?

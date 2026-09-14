@@ -1,3 +1,5 @@
+<!-- options-digest: 30c2c8ebca47 -->
+
 ## Question
 
 Un pod está Running, pero no recibe tráfico del Service. `kubectl get endpointslices` muestra el endpoint con ready: false. ¿Cuál es la causa más probable?

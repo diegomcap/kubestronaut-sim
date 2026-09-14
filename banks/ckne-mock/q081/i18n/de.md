@@ -1,3 +1,5 @@
+<!-- options-digest: 82bb4895b27a -->
+
 ## Question
 
 Was bewirkt das Feld internalTrafficPolicy: Local an einem Service?

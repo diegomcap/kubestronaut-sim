@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 Avec un CNI en routage natif (sans encapsulation), qu'attendez-vous dans `ip route` sur le nœud ?

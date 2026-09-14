@@ -1,3 +1,5 @@
+<!-- options-digest: a7ce490dc852 -->
+
 ## Question
 
 Quel composant Kubernetes attribue un podCIDR à chaque nœud quand le flag --allocate-node-cidrs=true est activé ?

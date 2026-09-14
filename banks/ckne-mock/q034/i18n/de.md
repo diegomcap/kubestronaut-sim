@@ -1,3 +1,5 @@
+<!-- options-digest: e2f5d6ec17e4 -->
+
 ## Question
 
 Welche NetworkPolicy implementiert "default deny" für Ingress aller Pods eines Namespace?

@@ -1,3 +1,5 @@
+<!-- options-digest: e8e71c6328b9 -->
+
 ## Question
 
 Каково назначение NodeLocal DNSCache?

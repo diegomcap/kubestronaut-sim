@@ -1,3 +1,5 @@
+<!-- options-digest: 8fad97ff207a -->
+
 ## Question
 
 Какие основные поля составляют ресурс Certificate в cert-manager?

@@ -1,3 +1,5 @@
+<!-- options-digest: ba445d4aeaed -->
+
 ## Question
 
 Qual comando mostra as entradas de rastreamento de conexão (NAT/estado) para investigar por onde uma conexão de pod está sendo traduzida?

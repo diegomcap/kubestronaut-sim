@@ -1,3 +1,5 @@
+<!-- options-digest: 0d1da0e569dc -->
+
 ## Question
 
 После применения default-deny egress NetworkPolicy pods перестали разрешать DNS-имена. Какое минимальное правило восстанавливает разрешение имён?

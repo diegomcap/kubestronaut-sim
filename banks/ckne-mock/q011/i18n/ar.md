@@ -1,3 +1,5 @@
+<!-- options-digest: 344a9c53591e -->
+
 ## Question
 
 أي نوع Service يوفر VIP داخلياً للكلاستر مع موازنة L4 لـ TCP/UDP/SCTP دون تعريض خارجي؟

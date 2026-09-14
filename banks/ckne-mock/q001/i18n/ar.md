@@ -1,3 +1,5 @@
+<!-- options-digest: 643f76d46c51 -->
+
 ## Question
 
 في أي مجلد يبحث kubelet افتراضياً عن ملفات إعداد شبكة CNI؟

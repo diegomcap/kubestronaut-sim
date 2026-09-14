@@ -1,3 +1,5 @@
+<!-- options-digest: c1002dc0e2d7 -->
+
 ## Question
 
 В bare-metal кластере без cloud provider Services типа LoadBalancer остаются pending. Какое решение исправляет это и какие два режима оно поддерживает?

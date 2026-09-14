@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 عند تفعيل WireGuard بين العقد في CNI، هل تُشفّر الحركة بين podين على العقدة نفسها؟

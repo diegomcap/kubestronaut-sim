@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 kubectl exec dentro del pod muestra eth0 UP con la IP correcta, pero no entra ni sale NADA. En el nodo, `ip link` muestra el peer veth en estado LOWERLAYERDOWN. ¿Qué indica esto?

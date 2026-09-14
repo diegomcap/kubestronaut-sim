@@ -1,3 +1,5 @@
+<!-- options-digest: 9a731325b9e9 -->
+
 ## Question
 
 endpoints الخاصة بـ Service صحيحة والاتصال المباشر pod-to-pod يعمل، لكن ClusterIP يفشل من كل pods على عقدة واحدة فقط. ما المشتبه الرئيسي؟

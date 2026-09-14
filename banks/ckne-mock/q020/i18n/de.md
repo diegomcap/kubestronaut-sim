@@ -1,3 +1,5 @@
+<!-- options-digest: 0c814eadb4b3 -->
+
 ## Question
 
 Eine HTTPRoute in einem anderen Namespace als das Gateway funktioniert nicht. Was muss meist angepasst werden?

@@ -1,3 +1,5 @@
+<!-- options-digest: 20c82ec212dc -->
+
 ## Question
 
 Deux règles d'une HTTPRoute matchent la même requête : l'une avec /api, l'autre avec /api/v2. Laquelle gagne ?

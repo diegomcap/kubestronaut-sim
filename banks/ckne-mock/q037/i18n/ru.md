@@ -1,3 +1,5 @@
+<!-- options-digest: 70c14052e5e6 -->
+
 ## Question
 
 В чём различие между двумя ingress rules?

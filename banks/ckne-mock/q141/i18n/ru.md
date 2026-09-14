@@ -1,3 +1,5 @@
+<!-- options-digest: 8a76f533a4ec -->
+
 ## Question
 
 Service настроен правильно (port 80 → targetPort 8080), endpoints готовы, но каждое соединение получает connection refused. Внутри pod `ss -tlnp` показывает процесс на 127.0.0.1:8080. В чём проблема?

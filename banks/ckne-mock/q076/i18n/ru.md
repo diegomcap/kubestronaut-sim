@@ -1,3 +1,5 @@
+<!-- options-digest: 456e733d9ff1 -->
+
 ## Question
 
 Помимо A-записей какой тип DNS-записей Kubernetes создаёт для именованных портов Service и в каком формате?

@@ -1,3 +1,5 @@
+<!-- options-digest: f62a1117c00f -->
+
 ## Question
 
 Qual é a forma padronizada de permitir tráfego vindo de um namespace específico pelo NOME (ex.: "monitoring") em uma NetworkPolicy?

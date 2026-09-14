@@ -1,3 +1,5 @@
+<!-- options-digest: 1abd171b2219 -->
+
 ## Question
 
 ¿Cómo hace que un Service del cluster balancee hacia un backend EXTERNO con IP fijas (por ejemplo, una base de datos heredada 192.168.10.5:5432), manteniendo un nombre DNS interno?

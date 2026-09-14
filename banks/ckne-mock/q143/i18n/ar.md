@@ -1,3 +1,5 @@
+<!-- options-digest: 454d5399a39a -->
+
 ## Question
 
 أثناء rollout تدخل pods الجديدة EndpointSlice بحالة ready وتتلقى الحركة فوراً، لكنها تعيد 502 لمدة نحو 3 ثوان رغم نجاح readinessProbe. أين الفخ؟

@@ -1,3 +1,5 @@
+<!-- options-digest: c6aef1551eb0 -->
+
 ## Question
 
 Listener Gateway задаёт hostname *.example.com, а HTTPRoute объявляет hostnames [app.example.com, app.other.com]. Что произойдёт?

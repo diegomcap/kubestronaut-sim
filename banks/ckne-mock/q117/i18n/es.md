@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 Con cifrado WireGuard node-to-node habilitado en el CNI, ¿se cifra el tráfico entre dos pods del MISMO nodo?

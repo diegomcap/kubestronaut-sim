@@ -1,3 +1,5 @@
+<!-- options-digest: 20c82ec212dc -->
+
 ## Question
 
 Dos reglas de un HTTPRoute coinciden con la misma solicitud: una con el path /api y otra con /api/v2. ¿Cuál gana?

@@ -1,3 +1,5 @@
+<!-- options-digest: 9e574e966e5c -->
+
 ## Question
 
 Какой инструмент автоматизирует выпуск и обновление TLS-сертификатов, например Let's Encrypt, для Gateways в Kubernetes?

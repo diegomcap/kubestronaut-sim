@@ -1,3 +1,5 @@
+<!-- options-digest: 435c28ad36f6 -->
+
 ## Question
 
 На bare metal вы создали Gateway, но его ADDRESS остаётся пустым, а Programmed: False — бесконечно. HTTPRoute корректны. Чего не хватает?

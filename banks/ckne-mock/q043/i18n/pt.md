@@ -1,3 +1,5 @@
+<!-- options-digest: 163c56c76e26 -->
+
 ## Question
 
 Qual recurso do Istio implementa autorização L7 (ex.: só o ServiceAccount "frontend" pode chamar GET /api no serviço "backend")?

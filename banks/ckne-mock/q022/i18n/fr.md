@@ -1,3 +1,5 @@
+<!-- options-digest: 53091f5df13f -->
+
 ## Question
 
 Quelle est la plage de ports par défaut allouée aux Services NodePort ?

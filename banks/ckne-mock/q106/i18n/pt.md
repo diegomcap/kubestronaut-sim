@@ -1,3 +1,5 @@
+<!-- options-digest: 89158e7736a6 -->
+
 ## Question
 
 No Calico, como criar um bloqueio explícito (deny) com precedência sobre regras de allow?

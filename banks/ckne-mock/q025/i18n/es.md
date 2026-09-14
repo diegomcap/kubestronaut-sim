@@ -1,3 +1,5 @@
+<!-- options-digest: c3e8ba51cf2a -->
+
 ## Question
 
 ¿Por qué el balanceo round-robin simple es inadecuado para el tráfico de LLM y requiere estrategias específicas?

@@ -1,3 +1,5 @@
+<!-- options-digest: 960f18a73df1 -->
+
 ## Question
 
 تشترط الشركة أن تخرج كل حركة egress إلى API خارجي من IP ثابت لإضافته إلى firewall allow-list. ما الحل؟

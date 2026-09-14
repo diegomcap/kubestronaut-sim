@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 Em um CNI em modo de roteamento nativo (sem encapsulamento), o que você espera ver em `ip route` no nó?

@@ -1,3 +1,5 @@
+<!-- options-digest: 069a5e876134 -->
+
 ## Question
 
 ¿Qué comando de Hubble muestra en tiempo real únicamente flujos DROPPED y la razón (por ejemplo, Policy denied)?

@@ -1,3 +1,5 @@
+<!-- options-digest: 7136aaa15173 -->
+
 ## Question
 
 Помимо mTLS identity workload как проверять JWT-токены КОНЕЧНОГО ПОЛЬЗОВАТЕЛЯ в запросах к сервису Istio?

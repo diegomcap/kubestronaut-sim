@@ -1,3 +1,5 @@
+<!-- options-digest: f70cd231b9f4 -->
+
 ## Question
 
 أي API توحّد اكتشاف الخدمات بين عدة clusters، وما نطاق DNS الذي تستخدمه؟

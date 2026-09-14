@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 Что ожидается увидеть в `ip route` на узле при CNI в режиме native routing без инкапсуляции?

@@ -1,3 +1,5 @@
+<!-- options-digest: d36af7ccfe60 -->
+
 ## Question
 
 Welche Istio-Ressource und welcher Modus erzwingen, dass ALLER von Workloads eines Namespace empfangene Traffic mTLS ist und Klartext abgelehnt wird?

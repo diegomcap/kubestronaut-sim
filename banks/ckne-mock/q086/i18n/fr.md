@@ -1,3 +1,5 @@
+<!-- options-digest: 2571e5cdad4d -->
+
 ## Question
 
 Dans la Gateway API Inference Extension, quel est le rôle de la ressource InferenceModel (ou InferenceObjective) ?

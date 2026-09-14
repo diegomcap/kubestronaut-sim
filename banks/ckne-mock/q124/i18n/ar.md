@@ -1,3 +1,5 @@
+<!-- options-digest: 069a5e876134 -->
+
 ## Question
 
 أي أمر Hubble يعرض في الوقت الحقيقي فقط flows ذات verdict ‏DROPPED والسبب مثل Policy denied؟

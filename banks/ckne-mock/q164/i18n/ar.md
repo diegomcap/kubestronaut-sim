@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 بعد restart لـ pod يبقى رسم rate(container_network_transmit_bytes_total[5m]) صحيحاً رغم reset العداد إلى صفر. لماذا؟

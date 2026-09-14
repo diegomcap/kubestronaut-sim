@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 في Istio multi-cluster مع شبكات منفصلة لا تملك pod-to-pod connectivity مباشرة، ما المكون الذي يمرر حركة الخدمات بين clusters؟

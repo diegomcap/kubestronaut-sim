@@ -1,3 +1,5 @@
+<!-- options-digest: 85ef186447d3 -->
+
 ## Question
 
 ¿Qué significa "kube-proxy replacement" en CNI como Cilium?

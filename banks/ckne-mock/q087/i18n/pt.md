@@ -1,3 +1,5 @@
+<!-- options-digest: 1028f3a9b670 -->
+
 ## Question
 
 Clientes chamam uma API estilo OpenAI onde o modelo desejado vem no CORPO JSON ({"model": "llama-3"}). Por que isso é um problema para gateways tradicionais, e qual a solução?

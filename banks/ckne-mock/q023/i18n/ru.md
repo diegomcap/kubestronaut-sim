@@ -1,3 +1,5 @@
+<!-- options-digest: f822e53d1bfa -->
+
 ## Question
 
 Что делает externalTrafficPolicy: Local у Service типа LoadBalancer/NodePort?

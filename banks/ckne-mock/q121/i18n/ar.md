@@ -1,3 +1,5 @@
+<!-- options-digest: 66e03e7643c9 -->
+
 ## Question
 
 تُسقط حركة pod في مكان غير معروف داخل stack الخاص بـ kernel، ربما iptables أو tc أو route. أي أداة eBPF تتتبع مسار packet وتظهر أين أُسقطت؟

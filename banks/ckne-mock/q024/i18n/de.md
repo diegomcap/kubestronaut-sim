@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 Welches offizielle Projekt erweitert die Gateway API, um das Routing von LLM-Inferenz-Traffic auf Kubernetes zu optimieren?

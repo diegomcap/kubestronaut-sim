@@ -1,3 +1,5 @@
+<!-- options-digest: 8572623714b7 -->
+
 ## Question
 
 Qual comando tcpdump captura apenas o tráfego DNS de um pod com IP 10.0.1.5, em qualquer interface do nó?

@@ -1,3 +1,5 @@
+<!-- options-digest: ce0a3331308f -->
+
 ## Question
 
 Como verificar se a criptografia WireGuard do Cilium está de fato ativa e cifrando o tráfego entre nós?

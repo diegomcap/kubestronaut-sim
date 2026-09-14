@@ -1,3 +1,5 @@
+<!-- options-digest: d9181c058424 -->
+
 ## Question
 
 Para medir disponibilidade e latência fim-a-fim de endpoints (de fora para dentro), simulando a experiência do usuário, qual abordagem é usada?

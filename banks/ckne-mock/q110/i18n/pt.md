@@ -1,3 +1,5 @@
+<!-- options-digest: d36af7ccfe60 -->
+
 ## Question
 
 No Istio, qual recurso e modo obrigam que TODO tráfego recebido pelos workloads de um namespace seja mTLS, rejeitando conexões em texto claro?

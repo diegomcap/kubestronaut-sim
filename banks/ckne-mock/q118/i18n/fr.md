@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 Quel manifeste isole complètement tous les pods d'un namespace (aucun trafic entrant NI sortant autorisé) ?

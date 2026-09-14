@@ -1,3 +1,5 @@
+<!-- options-digest: ba445d4aeaed -->
+
 ## Question
 
 أي أمر يعرض إدخالات connection tracking الخاصة بـ NAT والحالة للتحقيق في ترجمة اتصال pod؟

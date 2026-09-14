@@ -1,3 +1,5 @@
+<!-- options-digest: 3da15645316d -->
+
 ## Question
 
 Cuando se elimina un pod, ¿qué operación CNI se llama y qué ocurre si el nodo se reinicia ANTES de ejecutarla?

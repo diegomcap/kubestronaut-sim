@@ -1,3 +1,5 @@
+<!-- options-digest: 789b210508ea -->
+
 ## Question
 
 Quelle ressource Istio enregistre un service EXTERNE (ex. api.stripe.com) dans le registre du mesh, permettant routes, TLS et policies sur l'egress ?

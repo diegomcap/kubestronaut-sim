@@ -1,3 +1,5 @@
+<!-- options-digest: 2b0b3ad75d26 -->
+
 ## Question
 
 يعرض kubectl get svc الخدمة، لكن `kubectl get endpointslices -l kubernetes.io/service-name=my-svc` لا يعيد endpoints. ما السبب الأكثر شيوعاً؟

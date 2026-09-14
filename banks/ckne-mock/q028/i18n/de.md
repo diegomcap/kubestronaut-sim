@@ -1,3 +1,5 @@
+<!-- options-digest: f70cd231b9f4 -->
+
 ## Question
 
 Welche API standardisiert Service-Discovery über mehrere Cluster (Multi-Cluster Services), und welche DNS-Domain nutzt sie?

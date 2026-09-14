@@ -1,3 +1,5 @@
+<!-- options-digest: 680442628fde -->
+
 ## Question
 
 Qual registro DNS o Kubernetes cria para um POD individual (sem Service), e qual é o formato?

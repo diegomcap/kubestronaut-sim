@@ -1,3 +1,5 @@
+<!-- options-digest: 28bf4a31677e -->
+
 ## Question
 
 Necesita una baseline de ancho de banda y latencia pod-a-pod entre dos nodos específicos antes de culpar a la red por la lentitud de la aplicación. ¿Qué método directo utiliza?

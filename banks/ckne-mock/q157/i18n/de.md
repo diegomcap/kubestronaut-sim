@@ -1,3 +1,5 @@
+<!-- options-digest: be8bc635cb1a -->
+
 ## Question
 
 Eine INGRESS-Policy erlaubt Traffic zum Pod auf Port 8080, aber es gibt KEINE Egress-Policy für die Antworten. Funktionieren Verbindungen?

@@ -1,3 +1,5 @@
+<!-- options-digest: 5786bdef8691 -->
+
 ## Question
 
 AuthorizationPolicy с полностью пустым spec ({}) применена к namespace prod. Каков эффект?

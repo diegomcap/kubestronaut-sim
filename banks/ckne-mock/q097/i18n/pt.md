@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 Você precisa expor um banco PostgreSQL (TCP/5432) através de um Gateway, com roteamento L4. Qual recurso do Gateway API usar?

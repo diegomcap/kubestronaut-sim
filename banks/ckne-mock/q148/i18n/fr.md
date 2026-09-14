@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 Pourquoi l'affinité par PRÉFIXE de prompt (prefix-cache aware) améliore-t-elle drastiquement la latence sur des serveurs LLM comme vLLM ?

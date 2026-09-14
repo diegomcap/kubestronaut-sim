@@ -1,3 +1,5 @@
+<!-- options-digest: 32b4706e678f -->
+
 ## Question
 
 داخل pod، إلى أي عنوان يشير nameserver في /etc/resolv.conf افتراضياً عند dnsPolicy: ClusterFirst؟

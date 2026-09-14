@@ -1,3 +1,5 @@
+<!-- options-digest: e79192a1dc90 -->
+
 ## Question
 
 В режиме iptables у kube-proxy какая chain является точкой входа, где перехватывается трафик, направленный к Services?

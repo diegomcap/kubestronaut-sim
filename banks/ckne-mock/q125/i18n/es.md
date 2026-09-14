@@ -1,3 +1,5 @@
+<!-- options-digest: abdde3555967 -->
+
 ## Question
 
 ¿Qué son los exemplars en Prometheus y cómo ayudan a investigar la latencia de red?

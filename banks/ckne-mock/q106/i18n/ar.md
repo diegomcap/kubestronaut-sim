@@ -1,3 +1,5 @@
+<!-- options-digest: 89158e7736a6 -->
+
 ## Question
 
 في Calico، كيف تنشئ deny صريحاً له أولوية على قواعد allow؟

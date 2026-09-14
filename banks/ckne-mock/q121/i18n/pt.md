@@ -1,3 +1,5 @@
+<!-- options-digest: 66e03e7643c9 -->
+
 ## Question
 
 O tráfego de um pod está sendo dropado em algum ponto da pilha do kernel e você não sabe onde (iptables? tc? rota?). Qual ferramenta eBPF rastreia o caminho do pacote no kernel mostrando ONDE ele foi descartado?

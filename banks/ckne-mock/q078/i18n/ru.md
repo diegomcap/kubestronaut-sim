@@ -1,3 +1,5 @@
+<!-- options-digest: 20c82ec212dc -->
+
 ## Question
 
 Два rules HTTPRoute соответствуют одному запросу: один с path /api, другой с /api/v2. Какой побеждает?

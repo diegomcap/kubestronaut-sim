@@ -1,3 +1,5 @@
+<!-- options-digest: e77554f221c1 -->
+
 ## Question
 
 Dans un mesh Istio multi-cluster (multi-primary), les workloads du cluster A ne font pas confiance aux certificats du cluster B (erreurs TLS). Quelle exigence d'identité a été oubliée ?

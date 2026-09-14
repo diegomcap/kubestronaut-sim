@@ -1,3 +1,5 @@
+<!-- options-digest: 8a76f533a4ec -->
+
 ## Question
 
 Service korrekt (port 80 → targetPort 8080), Endpoints ready, aber jede Verbindung liefert "connection refused". Im Pod zeigt `ss -tlnp` den Prozess auf 127.0.0.1:8080. Problem?

@@ -1,3 +1,5 @@
+<!-- options-digest: b42d67569d39 -->
+
 ## Question
 
 Conexões TCP entre nós via VXLAN falham de forma bizarra (handshake ok, dados corrompidos/travados). Um workaround conhecido é `ethtool -K flannel.1 tx-checksum-ip-generic off`. Qual é o problema subjacente?

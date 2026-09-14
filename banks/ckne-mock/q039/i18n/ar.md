@@ -1,3 +1,5 @@
+<!-- options-digest: fb1a5b6cffce -->
+
 ## Question
 
 أي آلية توفر مصادقة متبادلة لكل workload وهوية تشفيرية لكل pod مع mTLS تلقائي، عادة عبر service mesh؟

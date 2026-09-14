@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 Configuró un canary ponderado (90/10) Y una regla que enruta el header x-beta: true hacia v2. Un usuario con x-beta: true a veces llega a v1. ¿Qué debe revisar?

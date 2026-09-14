@@ -1,3 +1,5 @@
+<!-- options-digest: 293debffb75b -->
+
 ## Question
 
 ما أحدث backend في kube-proxy صُمم لاستبدال iptables بأداء أفضل وAPI أحدث في kernel؟

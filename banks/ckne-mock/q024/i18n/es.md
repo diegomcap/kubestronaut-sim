@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 ¿Qué proyecto oficial amplía Gateway API para optimizar el enrutamiento del tráfico de inferencia de LLM en Kubernetes?

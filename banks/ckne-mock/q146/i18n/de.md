@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 Sie haben ein gewichtetes Canary (90/10) UND eine Regel, die den Header x-beta: true nach v2 routet. Ein Nutzer mit x-beta: true landet manchmal auf v1. Was prüfen?

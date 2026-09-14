@@ -1,3 +1,5 @@
+<!-- options-digest: 72144626fa0b -->
+
 ## Question
 
 Depois de concentrar todo o egress num único egressIP, conexões externas começam a falhar intermitentemente sob pico com erros de "cannot assign requested address" no gateway. Qual é o limite atingido?

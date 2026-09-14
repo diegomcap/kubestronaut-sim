@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 Внутри pod команда kubectl exec показывает eth0 в состоянии UP с правильным IP, но никакой трафик не проходит. На узле `ip link` показывает peer veth в состоянии LOWERLAYERDOWN. Что это означает?

@@ -1,3 +1,5 @@
+<!-- options-digest: a034ead62a6b -->
+
 ## Question
 
 تبقى عقدة جديدة NotReady مع الحالة container runtime network not ready: cni plugin not initialized. ماذا تفحص؟

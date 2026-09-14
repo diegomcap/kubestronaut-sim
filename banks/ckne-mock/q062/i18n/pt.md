@@ -1,3 +1,5 @@
+<!-- options-digest: a62f9ed69bf6 -->
+
 ## Question
 
 Ao usar VXLAN com interfaces de nó com MTU 1500, qual configuração evita fragmentação/perda de pacotes grandes?

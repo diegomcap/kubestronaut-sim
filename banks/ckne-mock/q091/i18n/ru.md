@@ -1,3 +1,5 @@
+<!-- options-digest: e9f173214751 -->
+
 ## Question
 
 IP pods маршрутизируются в datacenter, но трафик к внутренней сети 10.0.0.0/8 всё равно выходит с SNAT на IP узла. Как сохранить исходный IP pod для этих destinations?

@@ -1,3 +1,5 @@
+<!-- options-digest: c89b7d7d5e22 -->
+
 ## Question
 
 في ملف CNI من نوع .conflist، ما وظيفة array باسم plugins التي تضم عدة عناصر مثل cilium وportmap وbandwidth؟

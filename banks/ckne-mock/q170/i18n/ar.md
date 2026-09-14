@@ -1,3 +1,5 @@
+<!-- options-digest: 7a270a526ac9 -->
+
 ## Question
 
 يعرض hubble observe تدفقات DROPPED بسبب Policy denied في اتجاه pod→kube-dns بعد تطبيق egress policy على namespace، وتتوقف التطبيقات عن حل الأسماء. ما القراءة الصحيحة؟

@@ -1,3 +1,5 @@
+<!-- options-digest: cf10204ce5aa -->
+
 ## Question
 
 Warum ist die p99-Latenz aus einem Histogramm meist aufschlussreicher als der Durchschnitt bei Netzwerkproblemen?

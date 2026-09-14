@@ -1,3 +1,5 @@
+<!-- options-digest: b42d67569d39 -->
+
 ## Question
 
 TCP über VXLAN scheitert bizarr (Handshake OK, Daten korrupt/hängend). Bekannter Workaround: `ethtool -K flannel.1 tx-checksum-ip-generic off`. Was ist das Grundproblem?

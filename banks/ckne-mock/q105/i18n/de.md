@@ -1,3 +1,5 @@
+<!-- options-digest: 12b60b915076 -->
+
 ## Question
 
 Egress darf nur zu api.github.com, dessen IPs sich ständig ändern. Welche Lösung deckt das in Cilium nativ ab?

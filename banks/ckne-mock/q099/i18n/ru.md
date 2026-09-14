@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 В multi-cluster topology Istio с отдельными networks без прямой pod-to-pod связности какой компонент передаёт service-трафик между кластерами?

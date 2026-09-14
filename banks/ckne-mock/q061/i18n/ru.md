@@ -1,3 +1,5 @@
+<!-- options-digest: c1f3718a8c9e -->
+
 ## Question
 
 Что требуется настроить для dual-stack кластера IPv4 + IPv6?

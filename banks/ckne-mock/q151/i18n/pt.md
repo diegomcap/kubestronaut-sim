@@ -1,3 +1,5 @@
+<!-- options-digest: 6bd3af57275a -->
+
 ## Question
 
 Dois clusters com pod CIDRs IDÊNTICOS (ambos 10.244.0.0/16) precisam se conectar via Submariner. É possível?

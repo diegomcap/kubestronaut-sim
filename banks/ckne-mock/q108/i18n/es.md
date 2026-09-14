@@ -1,3 +1,5 @@
+<!-- options-digest: ce0a3331308f -->
+
 ## Question
 
 ¿Cómo verifica que el cifrado WireGuard de Cilium está realmente activo y cifrando el tráfico entre nodos?

@@ -1,3 +1,5 @@
+<!-- options-digest: 163c56c76e26 -->
+
 ## Question
 
 Welche Istio-Ressource implementiert L7-Autorisierung (z. B. nur der ServiceAccount "frontend" darf GET /api am Service "backend" aufrufen)?

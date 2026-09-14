@@ -1,3 +1,5 @@
+<!-- options-digest: 979976d609af -->
+
 ## Question
 
 При использовании Multus с вторичными сетями на нескольких узлах почему IPAM whereabouts предпочтительнее host-local?

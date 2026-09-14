@@ -1,3 +1,5 @@
+<!-- options-digest: 72144626fa0b -->
+
 ## Question
 
 Après avoir concentré tout l'egress sur une seule egressIP, les connexions externes échouent par intermittence en pic avec « cannot assign requested address » sur le gateway. Quelle limite a été atteinte ?

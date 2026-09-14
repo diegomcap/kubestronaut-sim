@@ -1,3 +1,5 @@
+<!-- options-digest: 1ce46b956bc1 -->
+
 ## Question
 
 No Gateway API, qual a divisão correta de papéis entre Gateway e HTTPRoute?

@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 Sie müssen eine PostgreSQL-Datenbank (TCP/5432) über ein Gateway mit L4-Routing exponieren. Welche Gateway-API-Ressource?

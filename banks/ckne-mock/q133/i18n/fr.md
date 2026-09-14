@@ -1,3 +1,5 @@
+<!-- options-digest: 3da15645316d -->
+
 ## Question
 
 Quelle opération CNI est appelée à la suppression d'un pod — et que se passe-t-il si le nœud reboote AVANT ?

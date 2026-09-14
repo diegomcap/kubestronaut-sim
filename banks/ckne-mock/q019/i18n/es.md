@@ -1,3 +1,5 @@
+<!-- options-digest: 1ce46b956bc1 -->
+
 ## Question
 
 En Gateway API, ¿cuál es la división correcta de responsabilidades entre Gateway y HTTPRoute?

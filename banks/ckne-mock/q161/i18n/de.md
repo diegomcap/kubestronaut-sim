@@ -1,3 +1,5 @@
+<!-- options-digest: 5786bdef8691 -->
+
 ## Question
 
 Eine AuthorizationPolicy mit komplett leerer Spec ({}) wurde auf den Namespace prod angewandt. Was ist der Effekt?

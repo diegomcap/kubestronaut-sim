@@ -1,3 +1,5 @@
+<!-- options-digest: 0d3874d224a4 -->
+
 ## Question
 
 Um pod com hostNetwork: true acessa pods protegidos por NetworkPolicy que só permite determinados podSelectors — e o acesso FUNCIONA. Por quê?

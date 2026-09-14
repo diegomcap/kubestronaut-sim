@@ -1,3 +1,5 @@
+<!-- options-digest: 8fad97ff207a -->
+
 ## Question
 
 ما الحقول الأساسية في مورد Certificate الخاص بـ cert-manager؟

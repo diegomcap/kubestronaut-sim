@@ -1,3 +1,5 @@
+<!-- options-digest: 4cadd0acdd48 -->
+
 ## Question
 
 Qual métrica do kube-proxy indica que as regras de Service estão demorando a ser programadas nos nós?

@@ -1,3 +1,5 @@
+<!-- options-digest: 7eca12b223e7 -->
+
 ## Question
 
 Где хранится ключ при использовании IPsec в Cilium и какая operational practice обязательна?

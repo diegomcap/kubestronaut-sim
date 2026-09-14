@@ -1,3 +1,5 @@
+<!-- options-digest: 789b210508ea -->
+
 ## Question
 
 En Istio, ¿qué recurso registra un servicio EXTERNO (por ejemplo, api.stripe.com) en el service registry del mesh, permitiendo routes, TLS y policies sobre el tráfico de egress?

@@ -1,3 +1,5 @@
+<!-- options-digest: f406b8e66c9a -->
+
 ## Question
 
 Welche Ressource hat das Endpoints-Objekt als skalierbaren Hauptmechanismus zum Tracken der Service-Backends abgelöst?

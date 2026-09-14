@@ -1,3 +1,5 @@
+<!-- options-digest: 293debffb75b -->
+
 ## Question
 
 Какой самый новый backend kube-proxy создан для замены режима iptables с лучшей производительностью и более современным API ядра?

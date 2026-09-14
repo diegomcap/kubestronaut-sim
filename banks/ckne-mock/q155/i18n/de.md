@@ -1,3 +1,5 @@
+<!-- options-digest: 007837152fbc -->
+
 ## Question
 
 Um Traffic vom Frontend-Pod (10.244.3.7) zu erlauben, erstellten Sie eine ipBlock-Regel mit 10.244.3.7/32. Heute lief es, morgen brach es. Warum?

@@ -1,3 +1,5 @@
+<!-- options-digest: 1028f3a9b670 -->
+
 ## Question
 
 Des clients appellent une API type OpenAI où le modèle voulu est dans le BODY JSON ({"model": "llama-3"}). Pourquoi est-ce un problème pour les gateways classiques, et quelle est la solution ?

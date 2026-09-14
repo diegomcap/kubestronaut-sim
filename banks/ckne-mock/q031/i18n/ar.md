@@ -1,3 +1,5 @@
+<!-- options-digest: ac21133e62bb -->
+
 ## Question
 
 كيف تنفذ canary release يرسل 10% من الحركة إلى الإصدار الجديد باستخدام Gateway API؟

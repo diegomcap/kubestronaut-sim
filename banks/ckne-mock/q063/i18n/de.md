@@ -1,3 +1,5 @@
+<!-- options-digest: fab0192812bd -->
+
 ## Question
 
 Welche Kombination gibt einem Pod ein sehr performantes Sekundär-Interface mit quasi-direktem Zugriff auf die physische NIC (NFV/Low Latency)?

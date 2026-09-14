@@ -1,3 +1,5 @@
+<!-- options-digest: b42d67569d39 -->
+
 ## Question
 
 Las conexiones TCP entre nodos sobre VXLAN fallan de forma extraña (handshake correcto, datos corruptos o bloqueados). Un workaround conocido es `ethtool -K flannel.1 tx-checksum-ip-generic off`. ¿Cuál es el problema subyacente?

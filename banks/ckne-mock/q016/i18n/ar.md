@@ -1,3 +1,5 @@
+<!-- options-digest: 30c2c8ebca47 -->
+
 ## Question
 
 pod في حالة Running لكنه لا يستقبل حركة من Service. يظهر EndpointSlice أن endpoint بقيمة ready: false. ما السبب الأرجح؟

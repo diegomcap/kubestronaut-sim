@@ -1,3 +1,5 @@
+<!-- options-digest: 69ad52f9c8a6 -->
+
 ## Question
 
 Sans kubectl exec disponible, comment entrer dans le namespace réseau d'un pod depuis le nœud pour déboguer ?

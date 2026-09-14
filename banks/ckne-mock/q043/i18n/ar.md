@@ -1,3 +1,5 @@
+<!-- options-digest: 163c56c76e26 -->
+
 ## Question
 
 أي مورد في Istio ينفذ تفويض L7، مثل السماح فقط لـ ServiceAccount باسم frontend باستدعاء GET /api على backend؟

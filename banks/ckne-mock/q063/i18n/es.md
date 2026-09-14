@@ -1,3 +1,5 @@
+<!-- options-digest: fab0192812bd -->
+
 ## Question
 
 ¿Qué combinación proporciona a un pod una interfaz secundaria de rendimiento muy alto, con acceso casi directo a la NIC física (NFV/baja latencia)?

@@ -1,3 +1,5 @@
+<!-- options-digest: 189aebeef69e -->
+
 ## Question
 
 ما السلوك الشبكي لـ pod مضبوط على hostNetwork: true؟

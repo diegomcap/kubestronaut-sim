@@ -1,3 +1,5 @@
+<!-- options-digest: 04934403c370 -->
+
 ## Question
 
 Necesita capturar el tráfico de un pod específico directamente en el nodo, sin entrar en el pod. ¿Cuál es el enfoque correcto?

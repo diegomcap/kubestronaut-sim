@@ -1,3 +1,5 @@
+<!-- options-digest: ace972a5a821 -->
+
 ## Question
 
 No Cilium Cluster Mesh, como tornar um Service disponível e balanceado entre todos os clusters conectados?

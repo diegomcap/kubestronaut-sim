@@ -1,3 +1,5 @@
+<!-- options-digest: e77554f221c1 -->
+
 ## Question
 
 Em uma malha Istio multi-cluster (multi-primary), os workloads do cluster A não confiam nos certificados do cluster B (erros de TLS). Qual é o requisito de identidade esquecido?

@@ -1,3 +1,5 @@
+<!-- options-digest: caa257cc2129 -->
+
 ## Question
 
 Você precisa permitir apenas GET /public/* no serviço, bloqueando POST e outros paths, usando política de rede do CNI. O que isso exige?

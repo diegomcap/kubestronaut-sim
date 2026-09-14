@@ -1,3 +1,5 @@
+<!-- options-digest: 45ad7068454e -->
+
 ## Question
 
 El Gateway está en el namespace "infra" y el Secret TLS en el namespace "apps". El listener referencia el Secret, pero el estado muestra RefNotPermitted. ¿Qué falta?

@@ -1,3 +1,5 @@
+<!-- options-digest: fb1a5b6cffce -->
+
 ## Question
 
 Qual mecanismo fornece autenticação mútua por workload (identidade criptográfica por pod) com mTLS automático, tipicamente via service mesh?

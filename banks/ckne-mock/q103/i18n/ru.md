@@ -1,3 +1,5 @@
+<!-- options-digest: f62a1117c00f -->
+
 ## Question
 
 Как стандартно разрешить в NetworkPolicy трафик из конкретного namespace по ИМЕНИ, например «monitoring»?

@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 Requisições de streaming (SSE) de um LLM atrás de um Gateway são cortadas após ~30s. Qual é o ajuste correto?

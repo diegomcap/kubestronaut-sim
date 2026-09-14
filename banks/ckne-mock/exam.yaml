@@ -1022,7 +1022,7 @@ spec:
       options:
         - "To save disk space on the nodes"
         - "To force daily pod restarts"
-        - "A short globalThisStub for compromised certificates, no reliance on revocation"
+        - "A short window for compromised certificates, no reliance on revocation"
         - "Because TLS mandates 24h expiry per an IETF rule"
       correct: [2]
     - id: q112
@@ -1543,7 +1543,7 @@ spec:
       multi: false
       options:
         - "A single fixed alert at 1% errors"
-        - "Multi-globalThisStub burn-rate alerts"
+        - "Multi-window burn-rate alerts"
         - "Turning alerts off at night"
         - "Alert on every individual error"
       correct: [1]

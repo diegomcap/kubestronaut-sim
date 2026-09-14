@@ -1,3 +1,5 @@
+<!-- options-digest: d36af7ccfe60 -->
+
 ## Question
 
 Dans Istio, quelle ressource et quel mode forcent TOUT le trafic reçu par les workloads d'un namespace à être en mTLS, rejetant le clair ?

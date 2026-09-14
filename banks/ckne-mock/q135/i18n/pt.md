@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 kubectl exec no pod mostra a interface eth0 UP com IP correto, mas NADA entra ou sai. No nó, `ip link` mostra o veth par com estado LOWERLAYERDOWN. O que isso indica?

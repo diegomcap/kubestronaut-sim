@@ -1,3 +1,5 @@
+<!-- options-digest: d745a2a9eab5 -->
+
 ## Question
 
 Alle Queries für die interne Domain corp.example.com sollen an den Firmen-DNS 10.50.0.2 gehen. Was tun Sie in CoreDNS?

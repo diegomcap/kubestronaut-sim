@@ -1,3 +1,5 @@
+<!-- options-digest: caa257cc2129 -->
+
 ## Question
 
 Нужно разрешить только GET /public/* к Service, блокируя POST и другие пути, с помощью network policy CNI. Что требуется?

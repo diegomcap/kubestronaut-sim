@@ -1,3 +1,5 @@
+<!-- options-digest: d3d4af661e9d -->
+
 ## Question
 
 Какое преимущество даёт указание targetPort по ИМЕНИ, например targetPort: http, вместо номера?

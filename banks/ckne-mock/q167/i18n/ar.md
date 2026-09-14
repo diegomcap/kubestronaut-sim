@@ -1,3 +1,5 @@
+<!-- options-digest: 07307218a0e7 -->
+
 ## Question
 
 تحتوي Grafana الشبكية لكل pod على ملايين series ويستهلك Prometheus عشرات GB. ما أكبر سبب عادة؟

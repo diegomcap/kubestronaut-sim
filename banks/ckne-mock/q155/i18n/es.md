@@ -1,3 +1,5 @@
+<!-- options-digest: 007837152fbc -->
+
 ## Question
 
 Para permitir tráfico desde el pod frontend (10.244.3.7), creó una regla ipBlock con 10.244.3.7/32. Funcionó hoy y dejó de funcionar mañana. ¿Por qué?

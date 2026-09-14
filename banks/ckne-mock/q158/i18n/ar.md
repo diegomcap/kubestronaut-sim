@@ -1,3 +1,5 @@
+<!-- options-digest: 8e7f8f1aa26d -->
+
 ## Question
 
 في قاعدة from، ما الفرق بين namespaceSelector: {} وبين حذف namespaceSelector؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 643f76d46c51 -->
+
 ## Question
 
 Dans quel répertoire le kubelet cherche-t-il, par défaut, les fichiers de configuration réseau CNI ?

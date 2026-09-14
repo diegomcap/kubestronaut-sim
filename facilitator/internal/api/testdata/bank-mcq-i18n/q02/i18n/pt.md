@@ -1,3 +1,5 @@
+<!-- options-digest: b8f88f2948b0 -->
+
 ## Question
 
 Quais destes são ímpares? Escolha todas as opções aplicáveis.

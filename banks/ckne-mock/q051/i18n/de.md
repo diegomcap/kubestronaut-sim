@@ -1,3 +1,5 @@
+<!-- options-digest: 3669f8299c0a -->
+
 ## Question
 
 Verbindungen scheitern unter Last sporadisch und dmesg zeigt "nf_conntrack: table full, dropping packet". Welche Metrik bestätigt das, und was ist der Fix?

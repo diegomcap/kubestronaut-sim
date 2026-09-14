@@ -1,3 +1,5 @@
+<!-- options-digest: 924124b4af1d -->
+
 ## Question
 
 Quel est le test le plus rapide pour valider d'un coup le DNS et la connectivité de base d'un nouveau cluster ?

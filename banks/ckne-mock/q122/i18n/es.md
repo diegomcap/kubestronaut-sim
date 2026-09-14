@@ -1,3 +1,5 @@
+<!-- options-digest: 225f5997d9ec -->
+
 ## Question
 
 ¿Cómo registra TODAS las consultas DNS que recibe CoreDNS para una auditoría o depuración temporal?

@@ -1,3 +1,5 @@
+<!-- options-digest: 9a731325b9e9 -->
+
 ## Question
 
 Os endpoints do Service estão corretos, pod-a-pod funciona por IP direto, mas o acesso via ClusterIP falha a partir de todos os pods de um nó específico. Qual a suspeita principal?

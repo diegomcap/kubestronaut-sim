@@ -1,3 +1,5 @@
+<!-- options-digest: ea7757987953 -->
+
 ## Question
 
 Um zu auditieren, WELCHER Netzwerk-Traffic zwischen Workloads tatsächlich floss (oder blockiert wurde) — welche Datenquelle ist korrekt?

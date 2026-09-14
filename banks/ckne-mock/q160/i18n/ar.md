@@ -1,3 +1,5 @@
+<!-- options-digest: ba06e6e72b46 -->
+
 ## Question
 
 مع PeerAuthentication بوضع PERMISSIVE يعرض dashboard أن mTLS مفعّل ويجتاز audit. ما الخطر المخفي؟

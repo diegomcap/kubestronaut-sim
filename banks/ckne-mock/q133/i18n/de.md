@@ -1,3 +1,5 @@
+<!-- options-digest: 3da15645316d -->
+
 ## Question
 
 Welche CNI-Operation wird beim Löschen eines Pods aufgerufen — und was passiert, wenn der Node VORHER rebootet?

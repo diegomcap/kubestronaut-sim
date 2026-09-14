@@ -1,3 +1,5 @@
+<!-- options-digest: d3d4af661e9d -->
+
 ## Question
 
 ما فائدة تعريف targetPort باسم، مثل targetPort: http، بدلاً من رقم؟

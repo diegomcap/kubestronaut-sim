@@ -1,3 +1,5 @@
+<!-- options-digest: ea7757987953 -->
+
 ## Question
 
 Para auditar QUÉ tráfico de red fluyó realmente (o fue bloqueado) entre workloads, ¿cuál es la fuente de datos correcta?

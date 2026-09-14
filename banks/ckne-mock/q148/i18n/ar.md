@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 لماذا يحسن التوجيه وفق prompt prefix مع مراعاة prefix cache latency بشكل كبير على خوادم LLM مثل vLLM؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 2c1d248f0739 -->
+
 ## Question
 
 Ao anunciar o mesmo VIP de LoadBalancer via BGP a partir de vários nós, qual mecanismo dos roteadores distribui o tráfego entre eles?

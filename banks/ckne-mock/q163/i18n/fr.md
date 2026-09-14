@@ -1,3 +1,5 @@
+<!-- options-digest: f30ee4e1c718 -->
+
 ## Question
 
 Les applis signalent des timeouts DNS intermittents d'EXACTEMENT 5 secondes sous charge. Cause classique et mitigation ?

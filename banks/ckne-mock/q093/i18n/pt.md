@@ -1,3 +1,5 @@
+<!-- options-digest: 8d2a60d61277 -->
+
 ## Question
 
 Na MCS API, qual a diferença entre um ServiceImport do tipo ClusterSetIP e do tipo Headless?

@@ -1,3 +1,5 @@
+<!-- options-digest: 0901e8f867cc -->
+
 ## Question
 
 Respecto al comportamiento de NetworkPolicy, ¿qué afirmación es correcta?

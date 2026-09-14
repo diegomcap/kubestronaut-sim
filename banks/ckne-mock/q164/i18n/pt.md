@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 Após reiniciar um pod, o gráfico de rate(container_network_transmit_bytes_total[5m]) daquele workload... continua correto, mesmo o counter tendo zerado. Por quê?

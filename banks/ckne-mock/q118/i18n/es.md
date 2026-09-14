@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 ¿Qué manifiesto aísla completamente todos los pods de un namespace, sin permitir tráfico entrante NI saliente?

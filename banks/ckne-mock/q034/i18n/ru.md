@@ -1,3 +1,5 @@
+<!-- options-digest: e2f5d6ec17e4 -->
+
 ## Question
 
 Какая NetworkPolicy реализует «default deny» для ingress ко всем pods namespace?

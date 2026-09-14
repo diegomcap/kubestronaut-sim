@@ -1,3 +1,5 @@
+<!-- options-digest: 5350e8b68fd8 -->
+
 ## Question
 
 Une NetworkPolicy a policyTypes: [Ingress], mais l'auteur a aussi écrit un bloc egress: dans la spec. Quel est l'effet du bloc egress ?

@@ -8,6 +8,7 @@ import (
 	"strings"
 	"testing"
 	"testing/fstest"
+	"time"
 
 	"kubestronaut-sim/facilitator/internal/api"
 	"kubestronaut-sim/facilitator/internal/exam"
@@ -22,12 +23,17 @@ const (
 func newI18nTestServer(t *testing.T) *testServer {
 	t.Helper()
 
+	return newI18nTestServerAt(t, t.TempDir()+"/session.json")
+}
+
+func newI18nTestServerAt(t *testing.T, sessionPath string) *testServer {
+	t.Helper()
 	ex, err := exam.Load(i18nExamJSON, i18nBankDir)
 	if err != nil {
 		t.Fatalf("exam.Load: %v", err)
 	}
 	clock, setNow := fakeClock(epoch)
-	mgr, err := session.New(t.TempDir()+"/session.json", ex.Name, ex.Duration, clock, func() {})
+	mgr, err := session.New(sessionPath, ex.Name, ex.Duration, clock, func() {}, session.WithLanguages(ex.Languages()))
 	if err != nil {
 		t.Fatalf("session.New: %v", err)
 	}
@@ -58,8 +64,14 @@ func TestExamAdvertisesItsLanguages(t *testing.T) {
 	// so a client written before they existed sees an unchanged shape.
 	plain := newMCQTestServer(t, false)
 	rec = plain.doJSON(t, http.MethodGet, "/api/exam", "")
-	if strings.Contains(rec.Body.String(), `"translations"`) {
-		t.Errorf("a bank without translations advertised some: %s", rec.Body.String())
+	for _, field := range []string{`"translations"`, `"language"`} {
+		if strings.Contains(rec.Body.String(), field) {
+			t.Errorf("a bank that declares no language advertised %s: %s", field, rec.Body.String())
+		}
+	}
+	rec = plain.doJSON(t, http.MethodPost, "/api/session/start", `{"mode":"exam","language":"en"}`)
+	if rec.Code != http.StatusOK {
+		t.Errorf("a bank with no declared language must still accept en, its implicit base: %d %s", rec.Code, rec.Body.String())
 	}
 }
 
@@ -189,5 +201,84 @@ func TestLoadRefusesAnIncompleteTranslation(t *testing.T) {
 	_, err = exam.Load(i18nExamJSON, bank)
 	if err == nil || !strings.Contains(err.Error(), "options") {
 		t.Fatalf("load with a 1-option translation: err = %v, want an option-count error", err)
+	}
+}
+
+func TestLoadRefusesATranslationOutOfStepWithTheOptionList(t *testing.T) {
+	good, err := os.ReadFile(filepath.Join(i18nBankDir, "q01", "i18n", "pt.md"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	cases := map[string]struct {
+		file string
+		want string
+	}{
+		"no digest line": {
+			file: strings.Replace(string(good), "<!-- options-digest: "+exam.OptionsDigest([]string{"Alpha", "Bravo", "Charlie"})+" -->", "", 1),
+			want: "options-digest",
+		},
+		"digest of a different list": {
+			file: strings.Replace(string(good), exam.OptionsDigest([]string{"Alpha", "Bravo", "Charlie"}), "0123456789ab", 1),
+			want: "different option list",
+		},
+		"an untranslated option moved": {
+			// "Bravo" is the same word in exam.yaml and in the translation;
+			// the translator swapped it with "Alfa". The digest is still the
+			// English list's, so only the position check can see this.
+			file: strings.Replace(string(good), "- Alfa\n- Bravo", "- Bravo\n- Alfa", 1),
+			want: "position",
+		},
+	}
+	for name, tc := range cases {
+		t.Run(name, func(t *testing.T) {
+			dir := t.TempDir()
+			bank := filepath.Join(dir, "bank")
+			if err := os.CopyFS(bank, os.DirFS(i18nBankDir)); err != nil {
+				t.Fatal(err)
+			}
+			if tc.file == string(good) {
+				t.Fatal("test case did not change the file")
+			}
+			if err := os.WriteFile(filepath.Join(bank, "q01", "i18n", "pt.md"), []byte(tc.file), 0o644); err != nil {
+				t.Fatal(err)
+			}
+			_, err := exam.Load(i18nExamJSON, bank)
+			if err == nil || !strings.Contains(err.Error(), tc.want) {
+				t.Fatalf("err = %v, want one mentioning %q", err, tc.want)
+			}
+			if err != nil && !strings.Contains(err.Error(), "q01") {
+				t.Errorf("error does not name the question: %v", err)
+			}
+		})
+	}
+}
+
+func TestAPersistedLanguageTheBankLacksIsDroppedOnLoad(t *testing.T) {
+	path := t.TempDir() + "/session.json"
+	ts := newI18nTestServerAt(t, path)
+	rec := ts.doJSON(t, http.MethodPost, "/api/session/start", `{"mode":"exam","language":"pt"}`)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("start: %d %s", rec.Code, rec.Body.String())
+	}
+
+	// Same file, re-read by a facilitator whose bank ships only English:
+	// the attempt survives, its language does not.
+	clock, _ := fakeClock(epoch)
+	mgr, err := session.New(path, "mcq-i18n-bank", time.Hour, clock, func() {}, session.WithLanguages([]string{"en"}))
+	if err != nil {
+		t.Fatal(err)
+	}
+	snap := mgr.Snapshot()
+	if snap.State != "running" || snap.Language != "" {
+		t.Errorf("after reload: state=%q language=%q, want running with no language", snap.State, snap.Language)
+	}
+
+	// And re-read by one that does ship it, the language stays.
+	mgr, err = session.New(path, "mcq-i18n-bank", time.Hour, clock, func() {}, session.WithLanguages([]string{"en", "pt"}))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := mgr.Snapshot().Language; got != "pt" {
+		t.Errorf("after reload with pt shipped: language=%q, want pt", got)
 	}
 }

@@ -1,6 +1,8 @@
 package exam
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -21,11 +23,34 @@ var languageCode = regexp.MustCompile(`^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$`)
 // Translation is one question in one language: the stem and the
 // explanation as markdown, and for an mcq question the options in the
 // same order as exam.yaml, so a stored answer index means the same thing
-// whichever language it was chosen in.
+// whichever language it was chosen in. OptionsDigest is what the file
+// says it was translated from — see OptionsDigest.
 type Translation struct {
-	Question string
-	Options  []string
-	Solution string
+	Question      string
+	Options       []string
+	Solution      string
+	OptionsDigest string
+}
+
+// BaseLanguage is the language the bank's own files are in: spec.language,
+// or English when the bank declares none. Language itself stays empty in
+// that case so that a bank which never mentioned languages keeps its
+// pre-translations API shape.
+func (e *Exam) BaseLanguage() string {
+	if e.Language == "" {
+		return DefaultLanguage
+	}
+	return e.Language
+}
+
+// OptionsDigest fingerprints an mcq question's options — text and order
+// — as exam.yaml has them. A translation records the digest of the list
+// it was made from, and Load refuses a translation whose digest no longer
+// matches: the translated options and the answer key are only aligned
+// while the English list is the one the translator saw.
+func OptionsDigest(options []string) string {
+	sum := sha256.Sum256([]byte(strings.Join(options, "\n")))
+	return hex.EncodeToString(sum[:])[:12]
 }
 
 // TranslationPath is where a question's translation lives:
@@ -38,7 +63,7 @@ func TranslationPath(bankDir, qid, lang string) string {
 // language first.
 func (e *Exam) Languages() []string {
 	out := make([]string, 0, 1+len(e.Translations))
-	out = append(out, e.Language)
+	out = append(out, e.BaseLanguage())
 	out = append(out, e.Translations...)
 	return out
 }
@@ -47,7 +72,7 @@ func (e *Exam) Languages() []string {
 // empty string is the base language, so a client that never asks for
 // one gets what it always got.
 func (e *Exam) HasLanguage(lang string) bool {
-	if lang == "" || lang == e.Language {
+	if lang == "" || lang == e.BaseLanguage() {
 		return true
 	}
 	for _, t := range e.Translations {
@@ -61,7 +86,7 @@ func (e *Exam) HasLanguage(lang string) bool {
 // Translated reports whether lang asks for something other than the
 // bank's own files.
 func (e *Exam) Translated(lang string) bool {
-	return lang != "" && lang != e.Language
+	return lang != "" && lang != e.BaseLanguage()
 }
 
 var (
@@ -69,6 +94,7 @@ var (
 	headingOptions  = regexp.MustCompile(`(?mi)^##\s+Options\s*$`)
 	headingSolution = regexp.MustCompile(`(?mi)^##\s+Solution\s*$`)
 	anyHeading      = regexp.MustCompile(`(?mi)^##\s+(Question|Options|Solution)\s*$`)
+	digestLine      = regexp.MustCompile(`(?m)^<!--\s*options-digest:\s*([0-9a-f]{12})\s*-->\s*$`)
 )
 
 // ReadTranslation parses one i18n file. The file is three sections under
@@ -88,6 +114,10 @@ func ReadTranslation(bankDir, qid, lang string) (Translation, error) {
 // ParseTranslation is ReadTranslation on text already in hand.
 func ParseTranslation(text, path string) (Translation, error) {
 	text = strings.ReplaceAll(text, "\r\n", "\n")
+	var digest string
+	if m := digestLine.FindStringSubmatch(text); m != nil {
+		digest = m[1]
+	}
 	locs := anyHeading.FindAllStringIndex(text, -1)
 	if len(locs) == 0 {
 		return Translation{}, fmt.Errorf("exam: %s has no `## Question` / `## Solution` sections", path)
@@ -105,7 +135,7 @@ func ParseTranslation(text, path string) (Translation, error) {
 		sections[head] = strings.TrimSpace(text[loc[1]:end])
 	}
 
-	tr := Translation{Question: sections["question"], Solution: sections["solution"]}
+	tr := Translation{Question: sections["question"], Solution: sections["solution"], OptionsDigest: digest}
 	if _, ok := sections["question"]; !ok || tr.Question == "" {
 		return Translation{}, fmt.Errorf("exam: %s has no `## Question` section, or an empty one", path)
 	}
@@ -138,13 +168,10 @@ func ParseTranslation(text, path string) (Translation, error) {
 // be started in and then fail to serve mid-exam is worse than a bank
 // that refuses to load.
 func validateTranslations(e *Exam, bankDir string) error {
-	if e.Language == "" {
-		e.Language = DefaultLanguage
-	}
-	if !languageCode.MatchString(e.Language) {
+	if e.Language != "" && !languageCode.MatchString(e.Language) {
 		return fmt.Errorf("exam: spec.language %q is not a language code", e.Language)
 	}
-	seen := map[string]bool{e.Language: true}
+	seen := map[string]bool{e.BaseLanguage(): true}
 	for _, lang := range e.Translations {
 		if !languageCode.MatchString(lang) {
 			return fmt.Errorf("exam: spec.translations entry %q is not a language code", lang)
@@ -158,10 +185,49 @@ func validateTranslations(e *Exam, bankDir string) error {
 			if err != nil {
 				return err
 			}
-			if e.Type == TypeMCQ && len(tr.Options) != len(q.Options) {
-				return fmt.Errorf("exam: %s: %s translation has %d options, exam.yaml has %d",
-					q.ID, lang, len(tr.Options), len(q.Options))
+			if e.Type == TypeMCQ {
+				if err := checkOptionsAligned(q, lang, tr); err != nil {
+					return err
+				}
 			}
+		}
+	}
+	return nil
+}
+
+// checkOptionsAligned is the guard against a translation whose options
+// are the right ones in the wrong order — the one mistake that loads
+// clean and inverts scoring. Two checks, both at the trust boundary:
+// the file's options-digest must be the digest of exam.yaml's options
+// as they are now (text and order), so a list that was reordered or
+// edited after translation is refused until the translation is redone;
+// and any translated option that is textually identical to an exam.yaml
+// option — a path, a flag, a component name, which translators leave
+// alone — must sit at the same index, which catches a hand-reordered
+// list the digest cannot see.
+func checkOptionsAligned(q Question, lang string, tr Translation) error {
+	if len(tr.Options) != len(q.Options) {
+		return fmt.Errorf("exam: %s: %s translation has %d options, exam.yaml has %d",
+			q.ID, lang, len(tr.Options), len(q.Options))
+	}
+	want := OptionsDigest(q.Options)
+	switch tr.OptionsDigest {
+	case "":
+		return fmt.Errorf("exam: %s: %s translation has no `<!-- options-digest: %s -->` line; "+
+			"a translation must say which option list it was made from", q.ID, lang, want)
+	case want:
+	default:
+		return fmt.Errorf("exam: %s: %s translation was made from a different option list "+
+			"(digest %s, exam.yaml is now %s); redo the translation", q.ID, lang, tr.OptionsDigest, want)
+	}
+	index := map[string]int{}
+	for i, o := range q.Options {
+		index[o] = i
+	}
+	for i, o := range tr.Options {
+		if j, ok := index[o]; ok && j != i {
+			return fmt.Errorf("exam: %s: %s translation lists %q at position %d, exam.yaml has it at %d; "+
+				"the option order is exam.yaml's in every language", q.ID, lang, o, i+1, j+1)
 		}
 	}
 	return nil

@@ -1,3 +1,5 @@
+<!-- options-digest: 53091f5df13f -->
+
 ## Question
 
 ما المجال الافتراضي للمنافذ المخصصة لخدمات NodePort؟

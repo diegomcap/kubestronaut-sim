@@ -1,3 +1,5 @@
+<!-- options-digest: 019a62e04658 -->
+
 ## Question
 
 Высоконагруженный клиент к одному и тому же destination начинает получать cannot assign requested address; `ss -s` внутри pod показывает десятки тысяч соединений TIME_WAIT. В чём проблема?

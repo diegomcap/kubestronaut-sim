@@ -1,3 +1,5 @@
+<!-- options-digest: 019a62e04658 -->
+
 ## Question
 
 عميل عالي throughput إلى الوجهة نفسها يبدأ بالفشل برسالة cannot assign requested address، ويعرض `ss -s` عشرات آلاف TIME_WAIT. ما المشكلة؟

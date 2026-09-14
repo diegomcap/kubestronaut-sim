@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 Вы настроили weighted canary 90/10 И отдельное направление заголовка x-beta: true на v2. Пользователь с x-beta: true иногда попадает на v1. Что проверить?

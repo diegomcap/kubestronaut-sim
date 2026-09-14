@@ -1,3 +1,5 @@
+<!-- options-digest: 5ea9fc69958a -->
+
 ## Question
 
 Dans l'Inference Extension, comment l'HTTPRoute envoie-t-elle le trafic vers un InferencePool au lieu d'un Service ?

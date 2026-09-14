@@ -1,3 +1,5 @@
+<!-- options-digest: c3e8ba51cf2a -->
+
 ## Question
 
 Por que balanceamento round-robin simples é ruim para tráfego de LLM, exigindo estratégias específicas?

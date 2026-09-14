@@ -1,3 +1,5 @@
+<!-- options-digest: caa257cc2129 -->
+
 ## Question
 
 Sie sollen nur GET /public/* am Service erlauben und POST sowie andere Pfade blockieren — per Netzwerk-Policy des CNI. Was erfordert das?

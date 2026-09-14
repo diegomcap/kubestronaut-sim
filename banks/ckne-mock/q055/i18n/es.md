@@ -1,3 +1,5 @@
+<!-- options-digest: 69ad52f9c8a6 -->
+
 ## Question
 
 Sin kubectl exec disponible, ¿cómo entra desde el nodo en el namespace de red de un pod para depurar?

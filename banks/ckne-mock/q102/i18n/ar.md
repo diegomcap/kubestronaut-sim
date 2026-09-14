@@ -1,3 +1,5 @@
+<!-- options-digest: c73c253af6d1 -->
+
 ## Question
 
 هل تستطيع NetworkPolicy منشأة في namespace باسم prod اختيار وعزل pods في dev؟

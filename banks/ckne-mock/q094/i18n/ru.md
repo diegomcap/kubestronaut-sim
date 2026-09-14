@@ -1,3 +1,5 @@
+<!-- options-digest: ace972a5a821 -->
+
 ## Question
 
 Как сделать Service доступным и сбалансированным во всех соединённых кластерах Cilium Cluster Mesh?

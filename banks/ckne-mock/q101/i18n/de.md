@@ -1,3 +1,5 @@
+<!-- options-digest: cc4949cac0a3 -->
+
 ## Question
 
 Wie ist die Standard-Netzwerkhaltung zwischen Pods in einem Cluster OHNE angewandte NetworkPolicy?

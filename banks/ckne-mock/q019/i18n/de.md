@@ -1,3 +1,5 @@
+<!-- options-digest: 1ce46b956bc1 -->
+
 ## Question
 
 Wie ist in der Gateway API die Rollenteilung zwischen Gateway und HTTPRoute korrekt beschrieben?

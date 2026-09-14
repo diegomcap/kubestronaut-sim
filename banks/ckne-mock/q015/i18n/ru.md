@@ -1,3 +1,5 @@
+<!-- options-digest: 2e13586639a5 -->
+
 ## Question
 
 Что возвращает DNS при запросе headless Service (clusterIP: None) с selector?

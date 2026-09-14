@@ -1,3 +1,5 @@
+<!-- options-digest: bc3124b04e79 -->
+
 ## Question
 
 أي أمر يختبر دفعة واحدة pod-to-pod وpod-to-Service وDNS والسياسات والتشفير إن كان مفعلاً في cluster يعمل بـ Cilium؟

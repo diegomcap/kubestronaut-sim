@@ -1,3 +1,5 @@
+<!-- options-digest: ce0a3331308f -->
+
 ## Question
 
 Comment vérifier que le chiffrement WireGuard de Cilium est réellement actif et chiffre le trafic entre nœuds ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 Quel projet officiel étend la Gateway API pour optimiser le routage du trafic d'inférence LLM sur Kubernetes ?

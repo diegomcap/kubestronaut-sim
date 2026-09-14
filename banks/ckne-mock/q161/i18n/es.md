@@ -1,3 +1,5 @@
+<!-- options-digest: 5786bdef8691 -->
+
 ## Question
 
 Se aplicó una AuthorizationPolicy con spec completamente vacío ({}) al namespace prod. ¿Cuál es el efecto?

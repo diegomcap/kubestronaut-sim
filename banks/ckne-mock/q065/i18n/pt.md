@@ -1,3 +1,5 @@
+<!-- options-digest: 12ffcefc1f45 -->
+
 ## Question
 
 Por padrão, quando um pod acessa um destino fora do cluster, qual transformação o tráfego sofre ao sair do nó?

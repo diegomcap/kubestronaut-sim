@@ -1,3 +1,5 @@
+<!-- options-digest: 1abd171b2219 -->
+
 ## Question
 
 Como fazer um Service do cluster balancear para um backend EXTERNO com IPs fixos (ex.: banco legado 192.168.10.5:5432), mantendo um nome DNS interno?

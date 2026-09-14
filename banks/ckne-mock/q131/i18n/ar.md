@@ -1,3 +1,5 @@
+<!-- options-digest: b42d67569d39 -->
+
 ## Question
 
 تفشل اتصالات TCP بين العقد عبر VXLAN بشكل غريب: handshake ينجح لكن البيانات تتلف أو تتوقف. الحل المعروف `ethtool -K flannel.1 tx-checksum-ip-generic off`. ما المشكلة الأساسية؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 1abd171b2219 -->
+
 ## Question
 
 Wie balanciert ein Cluster-Service auf ein EXTERNES Backend mit festen IPs (z. B. Legacy-Datenbank 192.168.10.5:5432), mit internem DNS-Namen?

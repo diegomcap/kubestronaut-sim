@@ -1,3 +1,5 @@
+<!-- options-digest: 2571e5cdad4d -->
+
 ## Question
 
 في Gateway API Inference Extension، ما دور مورد InferenceModel أو InferenceObjective؟

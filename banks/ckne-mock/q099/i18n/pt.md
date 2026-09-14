@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 Em uma topologia Istio multi-cluster com redes distintas (sem conectividade direta pod-a-pod), qual componente permite o tráfego de serviço atravessar entre os clusters?

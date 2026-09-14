@@ -1,3 +1,5 @@
+<!-- options-digest: e9f173214751 -->
+
 ## Question
 
 Ihre Pod-IPs sind im Rechenzentrum routbar, aber Traffic zum internen 10.0.0.0/8 verlässt den Node weiterhin SNATet. Wie erhalten Sie die Pod-IP für diese Ziele?

@@ -1,3 +1,5 @@
+<!-- options-digest: 9687de12eec2 -->
+
 ## Question
 
 Was ergänzt AdminNetworkPolicy (ANP) gegenüber der traditionellen NetworkPolicy?

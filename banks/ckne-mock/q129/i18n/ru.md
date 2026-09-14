@@ -1,3 +1,5 @@
+<!-- options-digest: 95d57df659d8 -->
+
 ## Question
 
 Вы отправляете ping на ClusterIP Service и не получаете ответа, но curl на порт Service работает нормально. Почему?

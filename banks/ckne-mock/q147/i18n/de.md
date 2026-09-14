@@ -1,3 +1,5 @@
+<!-- options-digest: 435c28ad36f6 -->
+
 ## Question
 
 Auf Bare-Metal bleibt das Gateway mit leerer ADDRESS und Programmed: False. Die HTTPRoutes sind korrekt. Was fehlt?

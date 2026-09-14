@@ -1,3 +1,5 @@
+<!-- options-digest: ffe324657114 -->
+
 ## Question
 
 L'application signale une latence élevée entre deux services. node_netstat_Tcp_RetransSegs grimpe vite sur les nœuds concernés. Qu'est-ce que cela indique ?

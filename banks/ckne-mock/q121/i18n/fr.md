@@ -1,3 +1,5 @@
+<!-- options-digest: 66e03e7643c9 -->
+
 ## Question
 
 Le trafic d'un pod est jeté quelque part dans la pile kernel, sans savoir où (iptables ? tc ? route ?). Quel outil eBPF trace le chemin du paquet dans le kernel en montrant OÙ il est jeté ?

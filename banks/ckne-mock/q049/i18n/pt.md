@@ -1,3 +1,5 @@
+<!-- options-digest: cf10204ce5aa -->
+
 ## Question
 
 Por que a latência p99 de um histograma é geralmente mais reveladora que a média para diagnosticar problemas de rede?

@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 Почему маршрутизация с affinity по префиксу prompt и учётом prefix cache значительно снижает задержку на LLM-серверах, таких как vLLM?

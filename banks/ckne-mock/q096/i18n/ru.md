@@ -1,3 +1,5 @@
+<!-- options-digest: 9ffff7924c62 -->
+
 ## Question
 
 Каково главное ограничение режима L2 (ARP) для объявления LoadBalancer, например MetalLB L2/Cilium L2 Announcements?

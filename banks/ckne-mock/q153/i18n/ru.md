@@ -1,3 +1,5 @@
+<!-- options-digest: e77554f221c1 -->
+
 ## Question
 
 В multi-primary Istio multi-cluster mesh workloads кластера A не доверяют сертификатам кластера B и получают TLS-ошибки. Какое требование идентичности забыто?

@@ -1,3 +1,5 @@
+<!-- options-digest: f03adc8265a0 -->
+
 ## Question
 
 Durante la depuración, `kubectl port-forward svc/my-api 8080:80` funciona, pero en producción los pods no pueden llamar al mismo Service. ¿Por qué port-forward NO valida la ruta real?

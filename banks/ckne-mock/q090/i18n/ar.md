@@ -1,3 +1,5 @@
+<!-- options-digest: 3b31bd8f0cbe -->
+
 ## Question
 
 ما العناصر الثلاثة الأساسية في CiliumEgressGatewayPolicy؟

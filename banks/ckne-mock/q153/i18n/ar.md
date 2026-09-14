@@ -1,3 +1,5 @@
+<!-- options-digest: e77554f221c1 -->
+
 ## Question
 
 في Istio multi-cluster من نوع multi-primary لا تثق workloads في cluster A بشهادات cluster B وتظهر TLS errors. أي متطلب هوية نُسي؟

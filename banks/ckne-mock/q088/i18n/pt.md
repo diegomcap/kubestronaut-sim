@@ -1,3 +1,5 @@
+<!-- options-digest: f767ae090c66 -->
+
 ## Question
 
 O que é roteamento LoRA-aware em gateways de inferência?

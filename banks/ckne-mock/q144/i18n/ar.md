@@ -1,3 +1,5 @@
+<!-- options-digest: 92e3c5d4fbfb -->
+
 ## Question
 
 في HTTPRoute له backendRefs اثنان، يحمل أحدهما weight: 0. ماذا يحدث لهذا backend؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 12b60b915076 -->
+
 ## Question
 
 Vous devez n'autoriser l'egress que vers api.github.com, dont les IPs changent constamment. Quelle solution native chez Cilium ?

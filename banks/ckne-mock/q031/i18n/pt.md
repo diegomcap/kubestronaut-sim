@@ -1,3 +1,5 @@
+<!-- options-digest: ac21133e62bb -->
+
 ## Question
 
 Como implementar um canary release enviando 10% do tráfego para a versão nova usando Gateway API?

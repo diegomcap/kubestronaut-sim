@@ -1,3 +1,5 @@
+<!-- options-digest: 114fb32df4be -->
+
 ## Question
 
 Para que todas las solicitudes del mismo cliente lleguen siempre al mismo pod mediante ClusterIP, ¿qué configuración del Service utiliza?

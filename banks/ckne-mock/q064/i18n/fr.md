@@ -1,3 +1,5 @@
+<!-- options-digest: a034ead62a6b -->
+
 ## Question
 
 Un nœud fraîchement ajouté reste NotReady avec « container runtime network not ready: cni plugin not initialized ». Que vérifier ?

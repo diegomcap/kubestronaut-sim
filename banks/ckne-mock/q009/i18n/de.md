@@ -1,3 +1,5 @@
+<!-- options-digest: 89dfd0a5d603 -->
+
 ## Question
 
 Was tut die Container-Runtime laut CNI-Spezifikation, wenn ein Pod erstellt wird?

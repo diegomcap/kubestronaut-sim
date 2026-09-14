@@ -1,3 +1,5 @@
+<!-- options-digest: d36af7ccfe60 -->
+
 ## Question
 
 في Istio، أي مورد ووضع يجبران كل الحركة الداخلة إلى workloads في namespace على mTLS ويرفضان plaintext؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 4cadd0acdd48 -->
+
 ## Question
 
 Quelle métrique de kube-proxy indique que les règles de Service mettent longtemps à être programmées sur les nœuds ?

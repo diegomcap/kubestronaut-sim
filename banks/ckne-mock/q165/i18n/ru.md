@@ -1,3 +1,5 @@
+<!-- options-digest: bc3124b04e79 -->
+
 ## Question
 
 Какая команда одним тестом проверяет pod-to-pod, pod-to-Service, DNS, policies и, если включено, шифрование в кластере Cilium?

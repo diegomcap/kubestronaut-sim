@@ -1,3 +1,5 @@
+<!-- options-digest: bafd00e52300 -->
+
 ## Question
 
 Des pods restent en ContainerCreating avec « failed to allocate for range 0: no IP addresses available in range ». Diagnostic et correctif ?

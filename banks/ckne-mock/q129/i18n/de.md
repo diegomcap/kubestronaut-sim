@@ -1,3 +1,5 @@
+<!-- options-digest: 95d57df659d8 -->
+
 ## Question
 
 Sie pingen den ClusterIP eines Service ohne Antwort, aber curl auf den Service-Port funktioniert perfekt. Warum?

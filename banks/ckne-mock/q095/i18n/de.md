@@ -1,3 +1,5 @@
+<!-- options-digest: 2c1d248f0739 -->
+
 ## Question
 
 Wird derselbe LoadBalancer-VIP per BGP von mehreren Nodes announct — welcher Router-Mechanismus verteilt den Traffic?

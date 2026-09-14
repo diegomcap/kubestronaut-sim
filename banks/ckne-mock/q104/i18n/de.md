@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 Wie erlauben Sie einen PORT-BEREICH (z. B. 30000 bis 32767) in einer einzigen NetworkPolicy-Regel?

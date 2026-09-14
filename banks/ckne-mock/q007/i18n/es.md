@@ -1,3 +1,5 @@
+<!-- options-digest: a0163d58cb63 -->
+
 ## Question
 
 Los pods del mismo nodo se comunican, pero los pods de nodos diferentes no. El CNI utiliza VXLAN. ¿Cuál es la causa más probable?

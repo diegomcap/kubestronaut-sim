@@ -1,3 +1,5 @@
+<!-- options-digest: bc3124b04e79 -->
+
 ## Question
 
 Qual comando valida de uma só vez conectividade pod-a-pod, pod-a-service, DNS, policies e (se habilitado) criptografia num cluster com Cilium?

@@ -1,3 +1,5 @@
+<!-- options-digest: 4db5c15e96e7 -->
+
 ## Question
 
 Você deletou e recriou um Service com o mesmo nome. As aplicações que gravaram o IP antigo pararam. Qual lição de arquitetura isso reforça?

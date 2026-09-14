@@ -1,3 +1,5 @@
+<!-- options-digest: 114fb32df4be -->
+
 ## Question
 
 Pour que toutes les requêtes d'un même client atteignent toujours le même pod via ClusterIP, quel réglage du Service ?

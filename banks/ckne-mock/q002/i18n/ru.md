@@ -1,3 +1,5 @@
+<!-- options-digest: a7ce490dc852 -->
+
 ## Question
 
 Какой компонент Kubernetes отвечает за выделение podCIDR каждому узлу, когда включён флаг --allocate-node-cidrs=true?

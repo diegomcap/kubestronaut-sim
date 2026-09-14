@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 Welches Manifest isoliert alle Pods eines Namespace vollständig (kein Ingress UND kein Egress erlaubt)?

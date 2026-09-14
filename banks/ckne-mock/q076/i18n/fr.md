@@ -1,3 +1,5 @@
+<!-- options-digest: 456e733d9ff1 -->
+
 ## Question
 
 Outre les A, quel type d'enregistrement DNS Kubernetes crée-t-il pour les ports nommés d'un Service, et sous quel format ?

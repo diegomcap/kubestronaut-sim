@@ -1,3 +1,5 @@
+<!-- options-digest: 225f5997d9ec -->
+
 ## Question
 
 Comment logger TOUTES les requêtes DNS reçues par CoreDNS, pour un audit/debug temporaire ?

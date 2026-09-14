@@ -1,3 +1,5 @@
+<!-- options-digest: a7ce490dc852 -->
+
 ## Question
 
 Welche Kubernetes-Komponente weist jedem Node einen podCIDR zu, wenn das Flag --allocate-node-cidrs=true aktiv ist?

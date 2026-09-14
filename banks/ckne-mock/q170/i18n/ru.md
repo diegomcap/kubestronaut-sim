@@ -1,3 +1,5 @@
+<!-- options-digest: 7a270a526ac9 -->
+
 ## Question
 
 После применения egress-policy к namespace команда hubble observe показывает DROPPED с verdict Policy denied в направлении pod→kube-dns. Приложения перестали разрешать имена. Как правильно интерпретировать поток?

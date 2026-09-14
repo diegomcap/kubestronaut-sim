@@ -1,3 +1,5 @@
+<!-- options-digest: d4e0285ade5f -->
+
 ## Question
 
 في Service، ما الفرق بين port وtargetPort وnodePort؟

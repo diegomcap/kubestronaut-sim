@@ -1,3 +1,5 @@
+<!-- options-digest: 189aebeef69e -->
+
 ## Question
 
 Um pod com hostNetwork: true apresenta qual comportamento de rede?

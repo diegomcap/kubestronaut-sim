@@ -1,3 +1,5 @@
+<!-- options-digest: 70c14052e5e6 -->
+
 ## Question
 
 ما الفرق بين قاعدتي ingress التاليتين؟

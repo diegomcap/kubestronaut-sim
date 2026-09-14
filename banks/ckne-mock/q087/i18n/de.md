@@ -1,3 +1,5 @@
+<!-- options-digest: 1028f3a9b670 -->
+
 ## Question
 
 Clients rufen eine OpenAI-artige API auf, bei der das Modell im JSON-BODY steht ({"model": "llama-3"}). Warum ist das ein Problem für klassische Gateways, und was ist die Lösung?

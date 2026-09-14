@@ -1,3 +1,5 @@
+<!-- options-digest: 99f016ae1f28 -->
+
 ## Question
 
 ¿Qué grupos de métricas puede exportar Hubble a Prometheus cuando se habilita hubble.metrics?

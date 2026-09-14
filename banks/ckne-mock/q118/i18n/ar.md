@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 أي manifest يعزل كل pods في namespace عزلاً كاملاً، فلا ingress ولا egress؟

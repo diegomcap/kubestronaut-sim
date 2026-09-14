@@ -1,3 +1,5 @@
+<!-- options-digest: 00916ebd9cc4 -->
+
 ## Question
 
 Когда следует использовать TLS Passthrough (TLSRoute) вместо Terminate на Gateway?

@@ -1,3 +1,5 @@
+<!-- options-digest: d3d4af661e9d -->
+
 ## Question
 
 Qual vantagem existe em definir targetPort com um NOME (ex.: targetPort: http) em vez de número?

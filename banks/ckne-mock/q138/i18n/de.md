@@ -1,3 +1,5 @@
+<!-- options-digest: d70176cde4b5 -->
+
 ## Question
 
 Welchen Effekt hat sessionAffinity: ClientIP an einem HEADLESS Service?

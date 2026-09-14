@@ -1,3 +1,5 @@
+<!-- options-digest: 960f18a73df1 -->
+
 ## Question
 
 Aller Egress-Traffic des Clusters zu einer externen API muss von einer festen IP kommen (Firewall-Allow-List). Welche Lösung?

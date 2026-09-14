@@ -1,3 +1,5 @@
+<!-- options-digest: c3c006b41b9c -->
+
 ## Question
 
 Service типа ExternalName указывает на api.partner.com, а клиенты вызывают https://my-alias.default.svc.cluster.local. TLS завершается ошибкой. Почему?

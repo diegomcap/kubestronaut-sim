@@ -1,3 +1,5 @@
+<!-- options-digest: e9f173214751 -->
+
 ## Question
 
 Las IP de sus pods son enrutables en el datacenter, pero el tráfico hacia la red interna 10.0.0.0/8 sigue saliendo con SNAT y la IP del nodo. ¿Cómo conserva la IP del pod para esos destinos?

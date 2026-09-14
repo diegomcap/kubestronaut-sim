@@ -1,3 +1,5 @@
+<!-- options-digest: 04934403c370 -->
+
 ## Question
 
 Vous devez capturer le trafic d'un pod précis directement sur le nœud, sans entrer dans le pod. Quelle est la bonne approche ?

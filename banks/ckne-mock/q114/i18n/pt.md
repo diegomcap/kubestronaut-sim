@@ -1,3 +1,5 @@
+<!-- options-digest: a67b6b0b1aae -->
+
 ## Question
 
 Para emitir um certificado wildcard (*.example.com) via Let's Encrypt/ACME com cert-manager, qual desafio é obrigatório?

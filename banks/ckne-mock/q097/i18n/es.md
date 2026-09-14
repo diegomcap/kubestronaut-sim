@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 Necesita exponer una base de datos PostgreSQL (TCP/5432) mediante un Gateway, con enrutamiento L4. ¿Qué recurso de Gateway API utiliza?

@@ -1,3 +1,5 @@
+<!-- options-digest: d5887d325861 -->
+
 ## Question
 
 SLO توفر Gateway هو 99.9% شهرياً. أي استراتيجية alerting تتجنب التنبيه على الاضطرابات القصيرة ولا تفوت استنزاف error budget البطيء؟

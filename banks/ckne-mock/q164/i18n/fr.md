@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 Après le redémarrage d'un pod, le graphe de rate(container_network_transmit_bytes_total[5m]) reste correct, bien que le compteur soit retombé à zéro. Pourquoi ?

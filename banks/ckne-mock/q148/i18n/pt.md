@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 Por que roteamento com afinidade de PREFIXO de prompt (prefix-cache aware) melhora drasticamente a latência em servidores LLM como vLLM?

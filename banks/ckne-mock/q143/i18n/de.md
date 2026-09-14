@@ -1,3 +1,5 @@
+<!-- options-digest: 454d5399a39a -->
+
 ## Question
 
 Während eines Rollouts kommen neue Pods als ready ins EndpointSlice und erhalten SOFORT Traffic, liefern aber ~3 s lang 502. Die readinessProbe besteht. Wo ist die Falle?

@@ -1,3 +1,5 @@
+<!-- options-digest: a8ffafe6be47 -->
+
 ## Question
 
 Un pod fue configurado con dnsPolicy: Default. ¿Cuál es el comportamiento y por qué el nombre resulta engañoso?

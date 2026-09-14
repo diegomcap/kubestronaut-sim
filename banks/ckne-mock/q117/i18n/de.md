@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 Ist bei aktivierter Node-zu-Node-WireGuard-Verschlüsselung im CNI der Traffic zwischen zwei Pods auf DEMSELBEN Node verschlüsselt?

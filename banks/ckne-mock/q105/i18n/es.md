@@ -1,3 +1,5 @@
+<!-- options-digest: 12b60b915076 -->
+
 ## Question
 
 Debe permitir egress únicamente hacia api.github.com, cuyas IP cambian constantemente. ¿Qué solución lo gestiona de forma nativa en Cilium?

@@ -1,3 +1,5 @@
+<!-- options-digest: a0163d58cb63 -->
+
 ## Question
 
 Les pods du même nœud communiquent, mais pas ceux de nœuds différents. Le CNI utilise VXLAN. Cause la plus probable ?

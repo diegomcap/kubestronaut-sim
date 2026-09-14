@@ -1,3 +1,5 @@
+<!-- options-digest: ffe324657114 -->
+
 ## Question
 
 A aplicação reporta latência alta entre dois serviços. node_netstat_Tcp_RetransSegs cresce rapidamente nos nós envolvidos. O que isso indica?

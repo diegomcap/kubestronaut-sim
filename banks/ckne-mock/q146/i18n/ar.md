@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 ضبطت canary بوزنين 90/10 وقاعدة توجه header ‏x-beta: true إلى v2، لكن مستخدماً يحمل header يصل أحياناً إلى v1. ماذا تراجع؟

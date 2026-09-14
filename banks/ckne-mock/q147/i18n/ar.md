@@ -1,3 +1,5 @@
+<!-- options-digest: 435c28ad36f6 -->
+
 ## Question
 
 في bare metal أنشأت Gateway لكنها تبقى ADDRESS فارغة وProgrammed: False رغم صحة HTTPRoutes. ما المفقود؟

@@ -1,3 +1,5 @@
+<!-- options-digest: c2c4e348bdd8 -->
+
 ## Question
 
 Um Pod-Netze ohne NAT direkt ins physische Firmennetz zu bringen (Pod-IPs routbar) — welcher Ansatz?

@@ -1,3 +1,5 @@
+<!-- options-digest: ace972a5a821 -->
+
 ## Question
 
 في Cilium Cluster Mesh، كيف تجعل Service متاحة ومتوازنة عبر جميع clusters المتصلة؟

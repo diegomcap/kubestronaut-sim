@@ -1,3 +1,5 @@
+<!-- options-digest: 057d29a69647 -->
+
 ## Question
 
 Apps klagen über langsame Auflösung externer Namen (z. B. api.github.com) aus Pods. tcpdump zeigt mehrere NXDOMAIN-Queries vor der richtigen Antwort. Ursache und Mitigation?

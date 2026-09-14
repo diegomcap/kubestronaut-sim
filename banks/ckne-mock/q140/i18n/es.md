@@ -1,3 +1,5 @@
+<!-- options-digest: 6e1d4adf965e -->
+
 ## Question
 
 CoreDNS entra en CrashLoopBackOff justo después de instalarse y registra "Loop ... detected". ¿Cuál es la causa típica en nodos con systemd-resolved?

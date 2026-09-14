@@ -1,3 +1,5 @@
+<!-- options-digest: ac21133e62bb -->
+
 ## Question
 
 ¿Cómo implementa una versión canary enviando el 10 % del tráfico a la versión nueva mediante Gateway API?

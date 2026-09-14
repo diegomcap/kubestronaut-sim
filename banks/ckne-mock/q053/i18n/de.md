@@ -1,3 +1,5 @@
+<!-- options-digest: ffe324657114 -->
+
 ## Question
 
 Die App meldet hohe Latenz zwischen zwei Services. node_netstat_Tcp_RetransSegs wächst auf den beteiligten Nodes schnell. Was heißt das?

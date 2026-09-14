@@ -1,3 +1,5 @@
+<!-- options-digest: 960f18a73df1 -->
+
 ## Question
 
 Tout le trafic egress du cluster vers une API externe doit sortir d'une IP fixe (allow-list pare-feu). Quelle solution ?

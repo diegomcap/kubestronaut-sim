@@ -1,3 +1,5 @@
+<!-- options-digest: 8e7f8f1aa26d -->
+
 ## Question
 
 В правиле from чем отличается namespaceSelector: {} от отсутствия namespaceSelector?

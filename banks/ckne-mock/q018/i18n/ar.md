@@ -1,3 +1,5 @@
+<!-- options-digest: 114fb32df4be -->
+
 ## Question
 
 لجعل كل طلبات العميل نفسه تصل دائماً إلى pod نفسه عبر ClusterIP، ما إعداد Service المستخدم؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 4db5c15e96e7 -->
+
 ## Question
 
 Sie haben einen Service gelöscht und namensgleich neu erstellt. Apps mit gemerkter alter IP brachen. Welche Architektur-Lektion bestätigt das?

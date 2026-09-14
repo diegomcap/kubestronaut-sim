@@ -1,3 +1,5 @@
+<!-- options-digest: e6656650e0cc -->
+
 ## Question
 
 أي metrics من CoreDNS هي الأكثر فائدة لاكتشاف تدهور DNS في الكلاستر عبر Prometheus؟

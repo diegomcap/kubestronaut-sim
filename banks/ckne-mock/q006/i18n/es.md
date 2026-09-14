@@ -1,3 +1,5 @@
+<!-- options-digest: 2de98712ce92 -->
+
 ## Question
 
 Para proporcionar a un pod una segunda interfaz de red (por ejemplo, una NIC dedicada al tráfico de almacenamiento), ¿qué solución y recurso utiliza?

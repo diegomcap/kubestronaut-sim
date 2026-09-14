@@ -1,3 +1,5 @@
+<!-- options-digest: f406b8e66c9a -->
+
 ## Question
 
 أي مورد استبدل كائن Endpoints كآلية رئيسية قابلة للتوسع لتتبع backends الخاصة بـ Service؟

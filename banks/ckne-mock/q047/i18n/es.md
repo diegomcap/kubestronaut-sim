@@ -1,3 +1,5 @@
+<!-- options-digest: f936b4dc4f3b -->
+
 ## Question
 
 ¿Qué herramienta del ecosistema Cilium proporciona visibilidad de flujos de red (L3–L7), incluidos los veredictos de policy (FORWARDED/DROPPED)?

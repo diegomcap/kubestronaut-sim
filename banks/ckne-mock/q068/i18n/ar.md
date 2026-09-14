@@ -1,3 +1,5 @@
+<!-- options-digest: ee9fd246e1e8 -->
+
 ## Question
 
 لماذا يعيد `ip netns list` على العقدة نتيجة فارغة غالباً رغم وجود عشرات pods، وما الأمر الذي يسرد network namespaces الحقيقية؟

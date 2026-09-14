@@ -1,3 +1,5 @@
+<!-- options-digest: 45ad7068454e -->
+
 ## Question
 
 Das Gateway liegt im Namespace "infra", das TLS-Secret in "apps". Der Listener referenziert das Secret, der Status zeigt RefNotPermitted. Was fehlt?

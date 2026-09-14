@@ -1,3 +1,5 @@
+<!-- options-digest: e79192a1dc90 -->
+
 ## Question
 
 عند تشغيل kube-proxy بوضع iptables، ما chain التي تمثل نقطة الدخول لاعتراض الحركة المتجهة إلى Services؟

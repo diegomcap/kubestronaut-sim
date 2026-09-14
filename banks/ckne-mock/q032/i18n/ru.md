@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 Streaming-запросы SSE от LLM за Gateway обрываются примерно через 30 секунд. Какое исправление правильное?

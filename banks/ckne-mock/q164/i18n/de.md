@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 Nach einem Pod-Neustart bleibt der Graph von rate(container_network_transmit_bytes_total[5m]) korrekt, obwohl der Counter auf null zurückfiel. Warum?

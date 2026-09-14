@@ -1,3 +1,5 @@
+<!-- options-digest: a9b6859995e5 -->
+
 ## Question
 
 Qual filtro do HTTPRoute permite adicionar um header (ex.: X-Env: prod) a todas as requisições encaminhadas ao backend?

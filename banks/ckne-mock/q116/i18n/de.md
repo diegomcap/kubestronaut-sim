@@ -1,3 +1,5 @@
+<!-- options-digest: 7136aaa15173 -->
+
 ## Question
 
 Wie validiert man zusätzlich zur Workload-mTLS-Identität ENDNUTZER-JWTs auf Requests an einen Istio-Service?

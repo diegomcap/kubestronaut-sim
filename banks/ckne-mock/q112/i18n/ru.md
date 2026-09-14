@@ -1,3 +1,5 @@
+<!-- options-digest: 45ad7068454e -->
+
 ## Question
 
 Gateway находится в namespace «infra», а TLS Secret — в «apps». Listener ссылается на Secret, но status показывает RefNotPermitted. Чего не хватает?

@@ -1,3 +1,5 @@
+<!-- options-digest: 960f18a73df1 -->
+
 ## Question
 
 Su empresa exige que todo el tráfico de salida del cluster hacia una API externa proceda de una IP fija para incluirla en la allow-list del firewall. ¿Qué solución debe aplicar?

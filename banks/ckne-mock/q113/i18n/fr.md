@@ -1,3 +1,5 @@
+<!-- options-digest: 8fad97ff207a -->
+
 ## Question
 
 Quels champs essentiels composent une ressource Certificate de cert-manager ?

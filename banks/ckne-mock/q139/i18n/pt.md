@@ -1,3 +1,5 @@
+<!-- options-digest: f03adc8265a0 -->
+
 ## Question
 
 Durante debug, `kubectl port-forward svc/minha-api 8080:80` funciona, mas em produção os pods falham ao chamar o mesmo Service. Por que o port-forward NÃO valida o caminho real?

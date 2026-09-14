@@ -1,3 +1,5 @@
+<!-- options-digest: 789b210508ea -->
+
 ## Question
 
 Какой ресурс Istio регистрирует ВНЕШНИЙ сервис, например api.stripe.com, в service registry mesh, позволяя применять routes, TLS и policies к egress-трафику?

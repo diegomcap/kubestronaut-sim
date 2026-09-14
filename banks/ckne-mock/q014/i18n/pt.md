@@ -1,3 +1,5 @@
+<!-- options-digest: d745a2a9eab5 -->
+
 ## Question
 
 Você precisa encaminhar todas as consultas do domínio interno corp.example.com para o DNS corporativo 10.50.0.2. O que fazer no CoreDNS?

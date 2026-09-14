@@ -1,3 +1,5 @@
+<!-- options-digest: a62f9ed69bf6 -->
+
 ## Question
 
 Avec VXLAN et des interfaces de nœud en MTU 1500, quel réglage évite fragmentation/pertes des gros paquets ?

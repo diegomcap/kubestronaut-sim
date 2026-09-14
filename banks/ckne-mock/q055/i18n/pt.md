@@ -1,3 +1,5 @@
+<!-- options-digest: 69ad52f9c8a6 -->
+
 ## Question
 
 Sem o binário do kubectl exec disponível, como entrar no namespace de rede de um pod a partir do nó para depurar?

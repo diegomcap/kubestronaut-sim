@@ -1,3 +1,5 @@
+<!-- options-digest: a034ead62a6b -->
+
 ## Question
 
 Un nodo recién añadido permanece NotReady con la condición "container runtime network not ready: cni plugin not initialized". ¿Qué debe comprobar?

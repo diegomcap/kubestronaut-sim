@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 En una topología multi-cluster de Istio con redes distintas y sin conectividad directa pod-a-pod, ¿qué componente permite que el tráfico de servicios cruce entre clusters?

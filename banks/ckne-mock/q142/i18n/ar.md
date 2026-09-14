@@ -1,3 +1,5 @@
+<!-- options-digest: 680442628fde -->
+
 ## Question
 
 أي سجل DNS ينشئه Kubernetes لـ POD منفرد دون Service، وما صيغته؟

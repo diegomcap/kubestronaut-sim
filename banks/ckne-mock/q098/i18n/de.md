@@ -1,3 +1,5 @@
+<!-- options-digest: 2dc0e5e5fcba -->
+
 ## Question
 
 Vor der Promotion einer neuen Version wollen Sie eine KOPIE des echten Produktions-Traffics dorthin senden, ohne dass ihre Antworten Clients erreichen. Welcher HTTPRoute-Filter?

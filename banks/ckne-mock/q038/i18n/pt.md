@@ -1,3 +1,5 @@
+<!-- options-digest: d58033c9867d -->
+
 ## Question
 
 Para criptografar de forma transparente todo o tráfego pod-a-pod entre nós, sem alterar as aplicações, qual recurso do CNI você habilita?

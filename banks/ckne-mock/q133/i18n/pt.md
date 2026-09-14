@@ -1,3 +1,5 @@
+<!-- options-digest: 3da15645316d -->
+
 ## Question
 
 Ao deletar um pod, qual operação CNI é chamada — e o que acontece se o nó reiniciar ANTES dela executar?

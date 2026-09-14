@@ -1,3 +1,5 @@
+<!-- options-digest: c73c253af6d1 -->
+
 ## Question
 
 ¿Puede una NetworkPolicy creada en el namespace "prod" seleccionar y aislar pods del namespace "dev"?

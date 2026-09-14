@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 Las solicitudes de streaming (SSE) de un LLM detrás de un Gateway se interrumpen después de unos 30 segundos. ¿Cuál es la corrección adecuada?

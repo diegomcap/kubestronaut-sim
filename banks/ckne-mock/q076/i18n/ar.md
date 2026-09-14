@@ -1,3 +1,5 @@
+<!-- options-digest: 456e733d9ff1 -->
+
 ## Question
 
 إضافة إلى سجلات A، أي نوع سجل DNS ينشئه Kubernetes للمنافذ المسماة في Service، وبأي صيغة؟

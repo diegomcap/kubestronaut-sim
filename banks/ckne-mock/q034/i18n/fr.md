@@ -1,3 +1,5 @@
+<!-- options-digest: e2f5d6ec17e4 -->
+
 ## Question
 
 Quelle NetworkPolicy implémente le « default deny » d'ingress pour tous les pods d'un namespace ?

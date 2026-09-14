@@ -1,3 +1,5 @@
+<!-- options-digest: 53091f5df13f -->
+
 ## Question
 
 Qual é o intervalo padrão de portas alocadas para Services do tipo NodePort?

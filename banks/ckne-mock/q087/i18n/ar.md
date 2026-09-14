@@ -1,3 +1,5 @@
+<!-- options-digest: 1028f3a9b670 -->
+
 ## Question
 
 يرسل العملاء اسم النموذج في JSON body مثل {"model": "llama-3"}. لماذا يمثل ذلك مشكلة للـ gateways التقليدية وما الحل؟

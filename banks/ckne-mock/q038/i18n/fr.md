@@ -1,3 +1,5 @@
+<!-- options-digest: d58033c9867d -->
+
 ## Question
 
 Pour chiffrer de façon transparente tout le trafic pod-à-pod entre nœuds, sans toucher aux applications, quelle fonctionnalité du CNI ?

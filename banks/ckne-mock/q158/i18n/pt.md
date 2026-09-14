@@ -1,3 +1,5 @@
+<!-- options-digest: 8e7f8f1aa26d -->
+
 ## Question
 
 Na regra from, qual é a diferença entre namespaceSelector: {} e omitir o namespaceSelector?

@@ -1,3 +1,5 @@
+<!-- options-digest: d5887d325861 -->
+
 ## Question
 
 O SLO de disponibilidade do gateway é 99,9%/mês. Qual estratégia de alerta evita tanto o pager por blips quanto descobrir tarde um sangramento lento do error budget?

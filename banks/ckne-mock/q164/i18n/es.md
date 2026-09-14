@@ -1,3 +1,5 @@
+<!-- options-digest: 2b946d109233 -->
+
 ## Question
 
 Después de reiniciar un pod, el gráfico de rate(container_network_transmit_bytes_total[5m]) para ese workload permanece correcto aunque el contador vuelva a cero. ¿Por qué?

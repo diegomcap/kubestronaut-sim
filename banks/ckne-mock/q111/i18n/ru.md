@@ -1,3 +1,5 @@
+<!-- options-digest: 99ec7f6ad2f7 -->
+
 ## Question
 
 Почему сертификаты workloads service mesh (SVIDs) имеют короткий срок действия, например 24 часа, и автоматически ротируются?

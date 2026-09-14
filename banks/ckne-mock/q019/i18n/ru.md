@@ -1,3 +1,5 @@
+<!-- options-digest: 1ce46b956bc1 -->
+
 ## Question
 
 Как в Gateway API правильно разделены роли между Gateway и HTTPRoute?

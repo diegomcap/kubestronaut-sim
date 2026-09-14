@@ -1,3 +1,5 @@
+<!-- options-digest: 6e1d4adf965e -->
+
 ## Question
 
 يدخل CoreDNS في CrashLoopBackOff بعد التثبيت ويعرض Loop ... detected. ما السبب المعتاد على عقد تستخدم systemd-resolved؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 7a270a526ac9 -->
+
 ## Question
 
 hubble observe zeigt Drops mit Verdict "Policy denied" in Richtung pod→kube-dns, NACHDEM Sie eine Egress-Policy auf den Namespace angewandt haben. Apps klagen über Namensauflösung. Korrekte Lesart des Flows?

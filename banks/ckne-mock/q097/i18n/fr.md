@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 Vous devez exposer une base PostgreSQL (TCP/5432) à travers un Gateway, avec routage L4. Quelle ressource de la Gateway API ?

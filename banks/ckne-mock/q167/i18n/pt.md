@@ -1,3 +1,5 @@
+<!-- options-digest: 07307218a0e7 -->
+
 ## Question
 
 Seu Grafana de rede por pod tem milhões de séries e o Prometheus consome dezenas de GB. A maior fonte do problema costuma ser:

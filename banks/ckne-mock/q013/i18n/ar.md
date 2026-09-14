@@ -1,3 +1,5 @@
+<!-- options-digest: 85ef186447d3 -->
+
 ## Question
 
 ماذا يعني kube-proxy replacement في حلول CNI مثل Cilium؟

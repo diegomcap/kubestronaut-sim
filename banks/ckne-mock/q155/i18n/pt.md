@@ -1,3 +1,5 @@
+<!-- options-digest: 007837152fbc -->
+
 ## Question
 
 Para permitir tráfego do pod frontend (10.244.3.7) você criou uma regra ipBlock com 10.244.3.7/32. Funcionou hoje e quebrou amanhã. Por quê?

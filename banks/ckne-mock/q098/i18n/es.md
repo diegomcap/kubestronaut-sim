@@ -1,3 +1,5 @@
+<!-- options-digest: 2dc0e5e5fcba -->
+
 ## Question
 
 Antes de promover una versión nueva, desea enviarle una COPIA del tráfico real de producción sin que sus respuestas afecten a los clientes. ¿Qué filtro de HTTPRoute lo hace?

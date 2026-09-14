@@ -1,3 +1,5 @@
+<!-- options-digest: 2a2bdc12cf4c -->
+
 ## Question
 
 في Corefile الخاص بـ CoreDNS، ماذا يفعل السطر `cache 30` داخل server block؟

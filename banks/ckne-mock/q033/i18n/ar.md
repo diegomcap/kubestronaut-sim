@@ -1,3 +1,5 @@
+<!-- options-digest: b1e983ffe96a -->
+
 ## Question
 
 في Cilium Cluster Mesh، ما متطلب الشبكة الأساسي بين clusters المتصلة؟

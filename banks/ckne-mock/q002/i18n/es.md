@@ -1,3 +1,5 @@
+<!-- options-digest: a7ce490dc852 -->
+
 ## Question
 
 ¿Qué componente de Kubernetes es responsable de asignar un podCIDR a cada nodo cuando está habilitado el flag --allocate-node-cidrs=true?

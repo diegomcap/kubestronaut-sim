@@ -1,3 +1,5 @@
+<!-- options-digest: c1f3718a8c9e -->
+
 ## Question
 
 Was muss für einen Dual-Stack-Cluster (IPv4 + IPv6) konfiguriert werden?

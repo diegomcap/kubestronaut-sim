@@ -1,3 +1,5 @@
+<!-- options-digest: a8ffafe6be47 -->
+
 ## Question
 
 ضُبط pod على dnsPolicy: Default. ما السلوك ولماذا الاسم خادع؟

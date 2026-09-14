@@ -1,3 +1,5 @@
+<!-- options-digest: d9181c058424 -->
+
 ## Question
 
 Para medir la disponibilidad y latencia end-to-end de los endpoints desde el exterior, simulando la experiencia del usuario, ¿qué enfoque se utiliza?

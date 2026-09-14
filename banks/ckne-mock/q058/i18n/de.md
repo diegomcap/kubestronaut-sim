@@ -1,3 +1,5 @@
+<!-- options-digest: ba445d4aeaed -->
+
 ## Question
 
 Welcher Befehl zeigt die Connection-Tracking-Einträge (NAT/State), um zu prüfen, wo die Verbindung eines Pods übersetzt wird?

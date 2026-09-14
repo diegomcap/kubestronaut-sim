@@ -1,3 +1,5 @@
+<!-- options-digest: 789b210508ea -->
+
 ## Question
 
 Welche Istio-Ressource registriert einen EXTERNEN Dienst (z. B. api.stripe.com) im Mesh-Service-Registry, um Routen, TLS und Policies auf Egress anzuwenden?

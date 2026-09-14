@@ -1,3 +1,5 @@
+<!-- options-digest: e2f5d6ec17e4 -->
+
 ## Question
 
 أي NetworkPolicy تنفذ default deny لحركة ingress لكل pods في namespace؟

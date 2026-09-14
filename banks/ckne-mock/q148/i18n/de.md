@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 Warum verbessert Prompt-PREFIX-Affinität (prefix-cache aware) das Routing die Latenz auf LLM-Servern wie vLLM dramatisch?

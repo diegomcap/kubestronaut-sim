@@ -1,3 +1,5 @@
+<!-- options-digest: 2e13586639a5 -->
+
 ## Question
 
 ماذا يعيد DNS عند الاستعلام عن headless Service له clusterIP: None وselector؟

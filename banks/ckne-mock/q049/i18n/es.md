@@ -1,3 +1,5 @@
+<!-- options-digest: cf10204ce5aa -->
+
 ## Question
 
 ¿Por qué la latencia p99 de un histograma suele revelar más que la media al diagnosticar problemas de red?

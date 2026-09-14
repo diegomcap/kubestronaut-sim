@@ -1,3 +1,5 @@
+<!-- options-digest: 3669f8299c0a -->
+
 ## Question
 
 Las conexiones fallan de forma intermitente bajo carga y dmesg del nodo muestra "nf_conntrack: table full, dropping packet". ¿Qué métrica lo confirma y cuál es la corrección?

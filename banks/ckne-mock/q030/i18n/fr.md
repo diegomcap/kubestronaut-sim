@@ -1,3 +1,5 @@
+<!-- options-digest: c2c4e348bdd8 -->
+
 ## Question
 
 Pour exposer les réseaux de pods directement sur le réseau physique de l'entreprise (sans NAT), IPs de pods routables — quelle approche ?

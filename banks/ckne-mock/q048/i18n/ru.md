@@ -1,3 +1,5 @@
+<!-- options-digest: c6890f34b3e6 -->
+
 ## Question
 
 Какой pattern/technology применяется для сквозного tracing запроса через gateway → service A → service B и что необходимо передавать?

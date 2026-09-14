@@ -1,3 +1,5 @@
+<!-- options-digest: 32b4706e678f -->
+
 ## Question
 
 Dentro de um pod, o /etc/resolv.conf aponta o nameserver para qual endereço, na configuração padrão (dnsPolicy: ClusterFirst)?

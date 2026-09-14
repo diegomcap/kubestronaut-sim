@@ -1,3 +1,5 @@
+<!-- options-digest: ee9fd246e1e8 -->
+
 ## Question
 
 Por que `ip netns list` no nó geralmente retorna vazio, mesmo com dezenas de pods rodando, e qual comando lista os namespaces de rede reais?

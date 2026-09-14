@@ -1,3 +1,5 @@
+<!-- options-digest: 99ec7f6ad2f7 -->
+
 ## Question
 
 Pourquoi les certificats de workload des service meshes (SVIDs) ont-ils une vie courte (ex. 24 h) et une rotation automatique ?

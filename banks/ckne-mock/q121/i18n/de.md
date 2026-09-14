@@ -1,3 +1,5 @@
+<!-- options-digest: 66e03e7643c9 -->
+
 ## Question
 
 Traffic eines Pods wird irgendwo im Kernel-Stack verworfen, unklar wo (iptables? tc? Route?). Welches eBPF-Tool zeigt den Paketpfad im Kernel samt Drop-Punkt?

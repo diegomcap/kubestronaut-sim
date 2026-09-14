@@ -1,3 +1,5 @@
+<!-- options-digest: cc4949cac0a3 -->
+
 ## Question
 
 Какова сетевая политика по умолчанию между pods в кластере, где НЕ применены NetworkPolicies?

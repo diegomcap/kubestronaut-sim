@@ -1,3 +1,5 @@
+<!-- options-digest: 435c28ad36f6 -->
+
 ## Question
 
 En bare metal, creó el Gateway y permanece con ADDRESS vacío y Programmed: False indefinidamente. Los HTTPRoutes son correctos. ¿Qué falta?

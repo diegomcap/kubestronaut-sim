@@ -1,3 +1,5 @@
+<!-- options-digest: f62a1117c00f -->
+
 ## Question
 
 Was ist der standardisierte Weg, Traffic aus einem bestimmten Namespace nach NAME (z. B. "monitoring") in einer NetworkPolicy zu erlauben?

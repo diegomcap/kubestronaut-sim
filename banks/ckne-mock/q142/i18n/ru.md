@@ -1,3 +1,5 @@
+<!-- options-digest: 680442628fde -->
+
 ## Question
 
 Какую DNS-запись Kubernetes создаёт для отдельного POD без Service и каков её формат?

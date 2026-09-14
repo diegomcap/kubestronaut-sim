@@ -1,3 +1,5 @@
+<!-- options-digest: 2a40ee4ea438 -->
+
 ## Question
 
 Почему диапазоны --cluster-cidr для pod и --service-cluster-ip-range для Service НИКОГДА не должны пересекаться?

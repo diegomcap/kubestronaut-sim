@@ -1,3 +1,5 @@
+<!-- options-digest: 84407b5c6c17 -->
+
 ## Question
 
 In einer Istio-Multi-Cluster-Topologie mit getrennten Netzen (kein direktes Pod-zu-Pod) — welche Komponente lässt Service-Traffic zwischen den Clustern fließen?

@@ -1,3 +1,5 @@
+<!-- options-digest: 66e03e7643c9 -->
+
 ## Question
 
 El tráfico de un pod se está descartando en algún punto de la pila del kernel y no sabe dónde (¿iptables, tc, route?). ¿Qué herramienta eBPF rastrea la ruta del paquete por el kernel y muestra DÓNDE fue descartado?

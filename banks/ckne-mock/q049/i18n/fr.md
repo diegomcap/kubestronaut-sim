@@ -1,3 +1,5 @@
+<!-- options-digest: cf10204ce5aa -->
+
 ## Question
 
 Pourquoi la latence p99 d'un histogramme est-elle souvent plus révélatrice que la moyenne pour diagnostiquer des problèmes réseau ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 42d4f462dafc -->
+
 ## Question
 
 Das CNI nutzt MTU 1450 an Pod-Interfaces, das physische Netz kann Jumbo Frames (9000). Welche Einstellung holt mit VXLAN die maximale Performance heraus?

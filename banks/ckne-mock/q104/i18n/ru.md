@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 Как разрешить ДИАПАЗОН портов, например 30000–32767, в одном rule NetworkPolicy?

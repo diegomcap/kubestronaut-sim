@@ -1,3 +1,5 @@
+<!-- options-digest: be8bc635cb1a -->
+
 ## Question
 
 Uma policy de INGRESS permite tráfego para o pod na porta 8080, mas não há NENHUMA policy de egress liberando as respostas de volta. As conexões funcionam?

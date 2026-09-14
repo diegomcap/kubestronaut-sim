@@ -1,3 +1,5 @@
+<!-- options-digest: 1ce46b956bc1 -->
+
 ## Question
 
 Dans la Gateway API, quelle est la bonne répartition des rôles entre Gateway et HTTPRoute ?

@@ -1,3 +1,5 @@
+<!-- options-digest: fc20b9624c09 -->
+
 ## Question
 
 ما قيدان حقيقيان في NetworkPolicies الأصلية لـ Kubernetes؟

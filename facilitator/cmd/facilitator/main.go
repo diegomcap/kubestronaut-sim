@@ -137,7 +137,7 @@ func runServer() error {
 		if fn := onExpire.Load(); fn != nil {
 			(*fn)()
 		}
-	})
+	}, session.WithLanguages(ex.Languages()))
 	if err != nil {
 		return fmt.Errorf("session: %w", err)
 	}

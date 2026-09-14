@@ -1,3 +1,5 @@
+<!-- options-digest: 04934403c370 -->
+
 ## Question
 
 Você precisa capturar o tráfego de um pod específico direto no nó, sem entrar no pod. Qual é a abordagem correta?

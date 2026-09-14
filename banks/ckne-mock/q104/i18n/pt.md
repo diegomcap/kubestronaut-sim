@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 Como permitir uma FAIXA de portas (ex.: 30000 a 32767) em uma única regra de NetworkPolicy?

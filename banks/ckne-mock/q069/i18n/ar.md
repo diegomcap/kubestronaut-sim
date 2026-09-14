@@ -1,3 +1,5 @@
+<!-- options-digest: 057d29a69647 -->
+
 ## Question
 
 تشتكي التطبيقات من بطء حل أسماء خارجية مثل api.github.com داخل pods، ويظهر tcpdump عدة NXDOMAIN قبل الجواب الصحيح. ما السبب والتخفيف؟

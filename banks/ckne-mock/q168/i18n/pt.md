@@ -1,3 +1,5 @@
+<!-- options-digest: 28bf4a31677e -->
+
 ## Question
 
 Você precisa de um baseline de banda e latência pod-a-pod entre dois nós específicos antes de culpar a rede por lentidão da aplicação. Qual método direto?

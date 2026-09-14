@@ -1,3 +1,5 @@
+<!-- options-digest: 40245eab31f5 -->
+
 ## Question
 
 Die "Golden Signals" aufs Cluster-Netzwerk angewandt — welches Metrik-Set entspricht Latenz, Traffic, Fehlern und Sättigung?

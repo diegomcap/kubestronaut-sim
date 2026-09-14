@@ -1,3 +1,5 @@
+<!-- options-digest: d58033c9867d -->
+
 ## Question
 
 Um allen Pod-zu-Pod-Traffic zwischen Nodes transparent zu verschlüsseln, ohne Anwendungen zu ändern — welches CNI-Feature?

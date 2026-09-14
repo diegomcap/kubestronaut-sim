@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 Avec le chiffrement WireGuard nœud-à-nœud activé dans le CNI, le trafic entre deux pods du MÊME nœud est-il chiffré ?

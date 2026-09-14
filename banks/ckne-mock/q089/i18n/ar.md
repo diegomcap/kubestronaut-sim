@@ -1,3 +1,5 @@
+<!-- options-digest: 789b210508ea -->
+
 ## Question
 
 في Istio، أي مورد يسجل خدمة خارجية مثل api.stripe.com داخل service registry للـ mesh، بما يسمح بالـ routes وTLS والسياسات على egress؟

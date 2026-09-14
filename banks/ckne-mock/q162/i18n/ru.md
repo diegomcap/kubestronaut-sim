@@ -1,3 +1,5 @@
+<!-- options-digest: 42d32d1e302e -->
+
 ## Question
 
 Dashboard показывает резкий рост NXDOMAIN в CoreDNS, и команда подозревает атаку. Все запросы выглядят как api.stripe.com.default.svc.cluster.local. Каков правильный диагноз?

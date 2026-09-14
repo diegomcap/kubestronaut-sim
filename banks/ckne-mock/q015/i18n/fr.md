@@ -1,3 +1,5 @@
+<!-- options-digest: 2e13586639a5 -->
+
 ## Question
 
 Que renvoie le DNS pour une requête vers un Service headless (clusterIP: None) avec sélecteur ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 12b60b915076 -->
+
 ## Question
 
 يجب السماح بـ egress فقط إلى api.github.com، لكن عناوينه تتغير باستمرار. ما الحل الأصلي في Cilium؟

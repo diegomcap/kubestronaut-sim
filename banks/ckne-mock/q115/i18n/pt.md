@@ -1,3 +1,5 @@
+<!-- options-digest: 984e5a0098bb -->
+
 ## Question
 
 Qual recurso do Gateway API roteia conexões TLS pelo SNI SEM descriptografá-las, e a qual modo de listener ele se associa?

@@ -1,3 +1,5 @@
+<!-- options-digest: e405d82f51b8 -->
+
 ## Question
 
 Para que serve publishNotReadyAddresses: true em um Service?

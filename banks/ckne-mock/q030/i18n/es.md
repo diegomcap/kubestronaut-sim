@@ -1,3 +1,5 @@
+<!-- options-digest: c2c4e348bdd8 -->
+
 ## Question
 
 Para exponer directamente las redes de pods a la red física de la empresa, sin NAT y haciendo que las IP de los pods sean enrutables, ¿qué enfoque se utiliza?

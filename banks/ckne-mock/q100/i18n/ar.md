@@ -1,3 +1,5 @@
+<!-- options-digest: df598c42c5c6 -->
+
 ## Question
 
 ما الذي تحاول Topology Aware Routing تحسينه، وما المقابل المحتمل؟

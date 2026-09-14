@@ -1,3 +1,5 @@
+<!-- options-digest: f30ee4e1c718 -->
+
 ## Question
 
 Apps melden unter Last sporadische DNS-Timeouts von EXAKT 5 Sekunden. Klassische Ursache und Mitigation?

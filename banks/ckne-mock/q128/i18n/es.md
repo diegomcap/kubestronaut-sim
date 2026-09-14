@@ -1,3 +1,5 @@
+<!-- options-digest: 11aa30a50737 -->
+
 ## Question
 
 Dos contenedores del MISMO pod intentan escuchar en el puerto 8080. ¿Qué ocurre?

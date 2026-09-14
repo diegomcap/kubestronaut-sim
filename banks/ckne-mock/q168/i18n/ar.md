@@ -1,3 +1,5 @@
+<!-- options-digest: 28bf4a31677e -->
+
 ## Question
 
 تحتاج baseline للـ bandwidth والـ latency بين podين على عقدتين محددتين قبل لوم الشبكة على بطء التطبيق. ما الطريقة المباشرة؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 9ffff7924c62 -->
+
 ## Question
 
 Qual é a principal limitação do modo L2 (ARP) de anúncio de LoadBalancer (MetalLB L2 / Cilium L2 Announcements)?

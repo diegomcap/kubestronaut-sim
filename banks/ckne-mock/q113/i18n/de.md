@@ -1,3 +1,5 @@
+<!-- options-digest: 8fad97ff207a -->
+
 ## Question
 
 Welche essenziellen Felder bilden eine cert-manager-Certificate-Ressource?

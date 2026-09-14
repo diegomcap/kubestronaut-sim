@@ -1,3 +1,5 @@
+<!-- options-digest: e6656650e0cc -->
+
 ## Question
 
 ¿Qué métricas de CoreDNS son más útiles para detectar degradación del DNS del cluster en Prometheus?

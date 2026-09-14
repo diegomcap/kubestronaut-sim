@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 Какой официальный проект расширяет Gateway API для оптимизации маршрутизации трафика inference LLM в Kubernetes?

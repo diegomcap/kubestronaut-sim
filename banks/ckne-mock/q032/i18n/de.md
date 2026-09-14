@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 Streaming-(SSE-)Requests eines LLM hinter einem Gateway brechen nach ~30 s ab. Was ist der richtige Fix?

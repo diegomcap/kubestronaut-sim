@@ -1,3 +1,5 @@
+<!-- options-digest: f03adc8265a0 -->
+
 ## Question
 
 يعمل `kubectl port-forward svc/my-api 8080:80` أثناء debug، لكن pods في production لا تصل إلى Service نفسها. لماذا لا يتحقق port-forward من المسار الحقيقي؟

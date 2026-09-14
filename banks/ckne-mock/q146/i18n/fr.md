@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 Vous avez un canary pondéré (90/10) ET une règle routant le header x-beta: true vers v2. Un utilisateur avec x-beta: true tombe parfois sur v1. Que revoir ?

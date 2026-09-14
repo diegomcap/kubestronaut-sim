@@ -1,3 +1,5 @@
+<!-- options-digest: a8ffafe6be47 -->
+
 ## Question
 
 Pod настроен с dnsPolicy: Default. Каково поведение и почему название вводит в заблуждение?

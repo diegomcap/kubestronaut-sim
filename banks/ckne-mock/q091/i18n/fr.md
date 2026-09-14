@@ -1,3 +1,5 @@
+<!-- options-digest: e9f173214751 -->
+
 ## Question
 
 Vos IPs de pods sont routables dans le datacenter, mais le trafic vers le 10.0.0.0/8 interne sort encore SNATé avec l'IP du nœud. Comment préserver l'IP du pod pour ces destinations ?

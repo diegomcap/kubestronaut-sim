@@ -1,3 +1,5 @@
+<!-- options-digest: cc4949cac0a3 -->
+
 ## Question
 
 في cluster بلا أي NetworkPolicy، ما الوضع الشبكي الافتراضي بين pods؟

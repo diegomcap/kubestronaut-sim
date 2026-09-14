@@ -1,3 +1,5 @@
+<!-- options-digest: 225f5997d9ec -->
+
 ## Question
 
 Como registrar TODAS as consultas DNS que o CoreDNS recebe, para auditoria/depuração temporária?

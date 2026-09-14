@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 Qual manifesto isola completamente todos os pods de um namespace (nenhum tráfego de entrada NEM de saída permitido)?

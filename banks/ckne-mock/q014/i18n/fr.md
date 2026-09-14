@@ -1,3 +1,5 @@
+<!-- options-digest: d745a2a9eab5 -->
+
 ## Question
 
 Toutes les requêtes du domaine interne corp.example.com doivent aller vers le DNS d'entreprise 10.50.0.2. Que faites-vous dans CoreDNS ?

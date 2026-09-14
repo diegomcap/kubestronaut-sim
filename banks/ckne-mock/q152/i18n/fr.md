@@ -1,3 +1,5 @@
+<!-- options-digest: fc53ccdd779b -->
+
 ## Question
 
 Au redémarrage de l'agent BGP (upgrade Cilium/Calico) sur un nœud, le trafic des VIPs annoncés est tombé ~30 s jusqu'au rétablissement de la session. Quels deux mécanismes réduisent cet impact ?

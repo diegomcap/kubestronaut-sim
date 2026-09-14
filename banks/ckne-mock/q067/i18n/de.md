@@ -1,3 +1,5 @@
+<!-- options-digest: bd5c4bb44d33 -->
+
 ## Question
 
 Zwischen zwei Pods funktioniert ping (ICMP), aber TCP-Verbindungen auf Port 8080 scheitern. Die zwei wahrscheinlichsten Ursachen?

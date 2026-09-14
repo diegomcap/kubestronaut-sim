@@ -1,3 +1,5 @@
+<!-- options-digest: a23976445eef -->
+
 ## Question
 
 ¿Cuál es la principal ventaja del modo IPVS de kube-proxy frente al modo iptables?

@@ -1,3 +1,5 @@
+<!-- options-digest: 40245eab31f5 -->
+
 ## Question
 
 Aplicando os "golden signals" à rede do cluster, qual conjunto de métricas corresponde a latência, tráfego, erros e saturação?

@@ -1,3 +1,5 @@
+<!-- options-digest: 95d57df659d8 -->
+
 ## Question
 
 ترسل ping إلى ClusterIP الخاصة بـ Service ولا تحصل على رد، لكن curl على منفذ Service يعمل. لماذا؟

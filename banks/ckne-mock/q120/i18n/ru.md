@@ -1,3 +1,5 @@
+<!-- options-digest: 40245eab31f5 -->
+
 ## Question
 
 При применении «golden signals» к сети кластера какой набор соответствует latency, traffic, errors и saturation?

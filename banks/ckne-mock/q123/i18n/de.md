@@ -1,3 +1,5 @@
+<!-- options-digest: d9181c058424 -->
+
 ## Question
 
 Um Verfügbarkeit und Latenz von Endpoints Ende-zu-Ende (von außen) zu messen und Nutzererfahrung zu simulieren — welcher Ansatz?

@@ -1,3 +1,5 @@
+<!-- options-digest: ffe324657114 -->
+
 ## Question
 
 تبلغ التطبيقات عن latency عالية بين خدمتين، وتزداد node_netstat_Tcp_RetransSegs بسرعة على العقد المعنية. ماذا يعني ذلك؟

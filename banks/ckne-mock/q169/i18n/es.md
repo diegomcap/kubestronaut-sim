@@ -1,3 +1,5 @@
+<!-- options-digest: d5887d325861 -->
+
 ## Question
 
 El SLO de disponibilidad del gateway es 99,9 %/mes. ¿Qué estrategia de alerting evita tanto hacer paging por incidentes mínimos como descubrir demasiado tarde un consumo lento del error budget?

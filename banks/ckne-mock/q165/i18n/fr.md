@@ -1,3 +1,5 @@
+<!-- options-digest: bc3124b04e79 -->
+
 ## Question
 
 Quelle commande valide d'un coup pod-à-pod, pod-à-service, DNS, policies et (si activé) le chiffrement sur un cluster Cilium ?

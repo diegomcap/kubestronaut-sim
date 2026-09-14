@@ -1,3 +1,5 @@
+<!-- options-digest: 40245eab31f5 -->
+
 ## Question
 
 En appliquant les « golden signals » au réseau du cluster, quel ensemble correspond à latence, trafic, erreurs et saturation ?

@@ -1,3 +1,5 @@
+<!-- options-digest: ac21133e62bb -->
+
 ## Question
 
 Comment implémenter un canary envoyant 10 % du trafic à la nouvelle version avec la Gateway API ?

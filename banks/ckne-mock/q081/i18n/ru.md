@@ -1,3 +1,5 @@
+<!-- options-digest: 82bb4895b27a -->
+
 ## Question
 
 Что делает поле internalTrafficPolicy: Local у Service?

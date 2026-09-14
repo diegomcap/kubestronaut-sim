@@ -1,3 +1,5 @@
+<!-- options-digest: 43a6f2e84c39 -->
+
 ## Question
 
 ¿Cuál es la función de GatewayClass en Gateway API?

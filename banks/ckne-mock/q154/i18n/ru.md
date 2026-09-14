@@ -1,3 +1,5 @@
+<!-- options-digest: 5350e8b68fd8 -->
+
 ## Question
 
 NetworkPolicy содержит policyTypes: [Ingress], но автор также добавил блок egress: [...] в spec. Каков эффект блока egress?

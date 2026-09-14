@@ -1,3 +1,5 @@
+<!-- options-digest: c6aef1551eb0 -->
+
 ## Question
 
 Der Gateway-Listener definiert hostname *.example.com, eine HTTPRoute deklariert hostnames [app.example.com, app.other.com]. Was passiert?

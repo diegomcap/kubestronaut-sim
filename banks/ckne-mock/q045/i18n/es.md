@@ -1,3 +1,5 @@
+<!-- options-digest: 0d1da0e569dc -->
+
 ## Question
 
 Se aplicó una NetworkPolicy default-deny de egress y los pods dejaron de resolver DNS. ¿Qué regla mínima restaura la resolución de nombres?

@@ -1,3 +1,5 @@
+<!-- options-digest: 8a76f533a4ec -->
+
 ## Question
 
 Service صحيحة، port 80 إلى targetPort 8080 وendpoints جاهزة، لكن كل اتصال يعيد connection refused. داخل pod يظهر `ss -tlnp` أن العملية تستمع على 127.0.0.1:8080. ما المشكلة؟

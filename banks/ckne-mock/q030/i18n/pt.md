@@ -1,3 +1,5 @@
+<!-- options-digest: c2c4e348bdd8 -->
+
 ## Question
 
 Para expor as redes de pods diretamente à rede física da empresa (sem NAT), tornando os pod IPs roteáveis, qual abordagem é usada?

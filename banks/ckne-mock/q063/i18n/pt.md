@@ -1,3 +1,5 @@
+<!-- options-digest: fab0192812bd -->
+
 ## Question
 
 Qual combinação fornece a um pod uma interface secundária de altíssimo desempenho, com acesso quase direto à NIC física (NFV/baixa latência)?

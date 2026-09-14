@@ -1,3 +1,5 @@
+<!-- options-digest: abdde3555967 -->
+
 ## Question
 
 O que são exemplars no Prometheus e como ajudam no troubleshooting de latência de rede?

@@ -1,3 +1,5 @@
+<!-- options-digest: f767ae090c66 -->
+
 ## Question
 
 Qu'est-ce que le routage « LoRA-aware » dans les gateways d'inférence ?

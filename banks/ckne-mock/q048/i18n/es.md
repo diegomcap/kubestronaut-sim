@@ -1,3 +1,5 @@
+<!-- options-digest: c6890f34b3e6 -->
+
 ## Question
 
 Para rastrear una solicitud de extremo a extremo a través de gateway → servicio A → servicio B, ¿qué patrón/tecnología se utiliza y qué debe propagarse?

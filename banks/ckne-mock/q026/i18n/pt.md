@@ -1,3 +1,5 @@
+<!-- options-digest: 960f18a73df1 -->
+
 ## Question
 
 Sua empresa exige que todo tráfego de saída do cluster para uma API externa venha de um IP fixo, para liberação em firewall. Qual solução aplicar?

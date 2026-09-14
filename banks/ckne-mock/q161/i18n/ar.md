@@ -1,3 +1,5 @@
+<!-- options-digest: 5786bdef8691 -->
+
 ## Question
 
 طُبقت AuthorizationPolicy ذات spec فارغة تماماً ({}) على namespace prod. ما التأثير؟

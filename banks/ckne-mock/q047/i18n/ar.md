@@ -1,3 +1,5 @@
+<!-- options-digest: f936b4dc4f3b -->
+
 ## Question
 
 أي أداة في منظومة Cilium توفر رؤية لتدفقات الشبكة L3–L7، بما في ذلك أحكام policy مثل FORWARDED وDROPPED؟

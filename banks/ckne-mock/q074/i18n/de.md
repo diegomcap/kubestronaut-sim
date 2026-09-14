@@ -1,3 +1,5 @@
+<!-- options-digest: d3d4af661e9d -->
+
 ## Question
 
 Welchen Vorteil hat targetPort mit NAME (z. B. targetPort: http) statt Nummer?

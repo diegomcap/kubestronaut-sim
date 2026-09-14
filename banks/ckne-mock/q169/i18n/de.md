@@ -1,3 +1,5 @@
+<!-- options-digest: d5887d325861 -->
+
 ## Question
 
 Das Verfügbarkeits-SLO des Gateways ist 99,9 %/Monat. Welche Alerting-Strategie vermeidet Paging bei Mini-Blips UND zu spätes Erkennen langsamen Budget-Verbrauchs?

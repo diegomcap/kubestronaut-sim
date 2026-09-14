@@ -1,3 +1,5 @@
+<!-- options-digest: 3081d8a36a37 -->
+
 ## Question
 
 ¿Qué ocurre con las conexiones nuevas hacia un ClusterIP cuyo Service NO tiene endpoints ready?

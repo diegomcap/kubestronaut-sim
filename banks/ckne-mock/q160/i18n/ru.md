@@ -1,3 +1,5 @@
+<!-- options-digest: ba06e6e72b46 -->
+
 ## Question
 
 PeerAuthentication установлен в режиме PERMISSIVE, dashboard показывает mTLS: enabled, и аудит считается пройденным. Каков скрытый риск?

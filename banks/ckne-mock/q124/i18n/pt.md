@@ -1,3 +1,5 @@
+<!-- options-digest: 069a5e876134 -->
+
 ## Question
 
 Qual comando do Hubble mostra, em tempo real, apenas os fluxos DESCARTADOS e o motivo (ex.: Policy denied)?

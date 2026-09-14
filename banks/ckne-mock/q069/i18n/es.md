@@ -1,3 +1,5 @@
+<!-- options-digest: 057d29a69647 -->
+
 ## Question
 
 Las aplicaciones se quejan de lentitud al resolver nombres externos (por ejemplo, api.github.com) desde los pods. tcpdump muestra varias consultas NXDOMAIN antes de la respuesta correcta. ¿Cuál es la causa y la mitigación?

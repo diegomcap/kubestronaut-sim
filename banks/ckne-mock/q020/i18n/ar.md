@@ -1,3 +1,5 @@
+<!-- options-digest: 0c814eadb4b3 -->
+
 ## Question
 
 HTTPRoute موجود في namespace مختلف عن Gateway ولا يعمل. ما الذي يحتاج عادة إلى تعديل؟

@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 يظهر kubectl exec أن eth0 داخل pod بحالة UP وبـ IP صحيح، لكن لا تدخل أو تخرج أي حركة. على العقدة يظهر peer الخاص بـ veth في LOWERLAYERDOWN. ماذا يعني ذلك؟

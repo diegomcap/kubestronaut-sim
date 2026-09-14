@@ -1,3 +1,5 @@
+<!-- options-digest: c1002dc0e2d7 -->
+
 ## Question
 
 Auf Bare-Metal ohne Cloud-Provider bleiben LoadBalancer-Services pending. Welche Lösung behebt das, und was sind ihre zwei Betriebsmodi?

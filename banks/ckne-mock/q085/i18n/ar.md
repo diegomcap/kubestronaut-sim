@@ -1,3 +1,5 @@
+<!-- options-digest: 766f4645d5c5 -->
+
 ## Question
 
 يحتاج HTTPRoute إلى backendRefs تشير إلى Service في namespace أخرى. ما المطلوب؟

@@ -1,3 +1,5 @@
+<!-- options-digest: c6890f34b3e6 -->
+
 ## Question
 
 Pour tracer une requête de bout en bout à travers gateway → service A → service B, quel patron/technologie, et que faut-il propager ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 293debffb75b -->
+
 ## Question
 
 ¿Cuál es el backend más reciente de kube-proxy, creado para sustituir el modo iptables con mejor rendimiento y una API de kernel más moderna?

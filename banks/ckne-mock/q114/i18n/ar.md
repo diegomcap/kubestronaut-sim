@@ -1,3 +1,5 @@
+<!-- options-digest: a67b6b0b1aae -->
+
 ## Question
 
 لإصدار wildcard certificate مثل *.example.com عبر Let's Encrypt وACME باستخدام cert-manager، أي challenge إلزامي؟

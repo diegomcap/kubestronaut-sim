@@ -292,12 +292,14 @@ over.
 when it does not; the client draws no entry point at all in that case,
 because a control that opens an empty sheet is worse than none.
 
-`language` is what the bank's own files are written in (`en` when
-`spec.language` is absent) and `translations` the other languages every
+`language` is what the bank's own files are written in, as
+`spec.language` declares it, and `translations` the other languages every
 question can be served in (`spec.translations`, see
 [bank-spec.md](bank-spec.md#translations-speclanguage-and-spectranslations)).
-Both are omitted for a bank with no translations, so a client written
-before they existed sees an unchanged shape. A language is chosen at
+Each is omitted when the bank does not declare it, so a bank that never
+mentioned languages keeps the shape it had before they existed; English
+is the implicit base in that case, and `language: "en"` is still
+accepted at start. A language is chosen at
 [POST /api/session/start](#post-apisessionstart) and fixed for the
 attempt.
 

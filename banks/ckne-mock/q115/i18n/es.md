@@ -1,3 +1,5 @@
+<!-- options-digest: 984e5a0098bb -->
+
 ## Question
 
 ¿Qué recurso de Gateway API enruta conexiones TLS por SNI SIN descifrarlas y a qué modo de listener se asocia?

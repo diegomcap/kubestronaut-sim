@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 Comment autoriser une PLAGE de ports (ex. 30000 à 32767) dans une seule règle de NetworkPolicy ?

@@ -1,3 +1,5 @@
+<!-- options-digest: a67b6b0b1aae -->
+
 ## Question
 
 Какой challenge обязателен для выпуска wildcard-сертификата *.example.com через Let's Encrypt/ACME с cert-manager?

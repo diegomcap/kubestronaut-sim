@@ -1,3 +1,5 @@
+<!-- options-digest: 9e574e966e5c -->
+
 ## Question
 
 Welches Tool automatisiert Ausstellung und Erneuerung von TLS-Zertifikaten (z. B. Let's Encrypt) für Gateways in Kubernetes?

@@ -1,3 +1,5 @@
+<!-- options-digest: 8fad97ff207a -->
+
 ## Question
 
 ¿Qué campos esenciales componen un recurso Certificate de cert-manager?

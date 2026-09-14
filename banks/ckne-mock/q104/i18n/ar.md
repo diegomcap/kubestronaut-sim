@@ -1,3 +1,5 @@
+<!-- options-digest: 4f5238f04e9e -->
+
 ## Question
 
 كيف تسمح بمجال منافذ، مثل 30000 إلى 32767، في قاعدة NetworkPolicy واحدة؟

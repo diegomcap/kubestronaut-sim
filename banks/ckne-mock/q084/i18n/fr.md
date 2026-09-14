@@ -1,3 +1,5 @@
+<!-- options-digest: 3081d8a36a37 -->
+
 ## Question
 
 Qu'arrive-t-il aux nouvelles connexions vers un ClusterIP dont le Service n'a AUCUN endpoint prêt ?

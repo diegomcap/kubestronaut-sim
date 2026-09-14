@@ -1,3 +1,5 @@
+<!-- options-digest: e79192a1dc90 -->
+
 ## Question
 
 Con kube-proxy en modo iptables, ¿qué chain es el punto de entrada donde se intercepta el tráfico destinado a Services?

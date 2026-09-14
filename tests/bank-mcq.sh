@@ -3,7 +3,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 python3 - "$@" <<'PY'
-import os, re, sys, glob
+import glob, hashlib, json, os, re, sys
 
 TOLERANCE = 2.0
 MIN_SOLUTION = 200
@@ -191,6 +191,23 @@ for exam_path in sorted(glob.glob("banks/*/exam.yaml")):
         fail(bank, f"spec.translations repeats a language or lists the base language {base_lang}")
 
     SECTION_RE = re.compile(r"^##\s+(Question|Options|Solution)\s*$", re.M | re.I)
+    DIGEST_RE = re.compile(r"^<!--\s*options-digest:\s*([0-9a-f]{12})\s*-->\s*$", re.M)
+
+    def scalar(val):
+        """The value exam.yaml's reader hands the facilitator: a double-
+        quoted scalar unescaped, a single-quoted one with '' folded."""
+        if len(val) >= 2 and val[0] == val[-1] == '"':
+            try:
+                return json.loads(val)
+            except ValueError:
+                return val[1:-1]
+        if len(val) >= 2 and val[0] == val[-1] == "'":
+            return val[1:-1].replace("''", "'")
+        return val
+
+    def options_digest(raw_options):
+        return hashlib.sha256("\n".join(scalar(o) for o in raw_options).encode("utf-8")).hexdigest()[:12]
+
     for q in questions:
         qid = q["id"]
         qdir = os.path.join(bank_dir, qid)
@@ -223,6 +240,25 @@ for exam_path in sorted(glob.glob("banks/*/exam.yaml")):
                 fail(bank, f"{qid}/i18n/{lang}.md: `## Options` must be one `- option` per line")
             elif len(lines) != len(opts):
                 fail(bank, f"{qid}/i18n/{lang}.md has {len(lines)} options, exam.yaml has {len(opts)}")
+            else:
+                # The translation says which option list it was made from
+                # (text and order); any option the translator left in the
+                # original language must not have moved. Both mirror the
+                # facilitator's load-time checks in exam/i18n.go.
+                want = options_digest([m.group(1) for m in re.finditer(r"[ \t]+-[ \t]+(\S.*?)\s*$", q["options"], re.M)])
+                dm = DIGEST_RE.search(body)
+                if dm is None:
+                    fail(bank, f"{qid}/i18n/{lang}.md has no `<!-- options-digest: {want} -->` line")
+                elif dm.group(1) != want:
+                    fail(bank, f"{qid}/i18n/{lang}.md was made from a different option list "
+                               f"(digest {dm.group(1)}, exam.yaml is now {want}); redo the translation")
+                base = {scalar(o): i for i, o in enumerate(
+                    m.group(1) for m in re.finditer(r"[ \t]+-[ \t]+(\S.*?)\s*$", q["options"], re.M))}
+                for i, l in enumerate(lines):
+                    o = l[2:].strip()
+                    if o in base and base[o] != i:
+                        fail(bank, f"{qid}/i18n/{lang}.md lists {o!r} at position {i + 1}, exam.yaml has it "
+                                   f"at {base[o] + 1}; the option order is exam.yaml's in every language")
             if len(parts["solution"]) < MIN_SOLUTION:
                 fail(bank, f"{qid}/i18n/{lang}.md: `## Solution` is {len(parts['solution'])} characters, "
                            f"minimum {MIN_SOLUTION}")

@@ -1,3 +1,5 @@
+<!-- options-digest: 0d1da0e569dc -->
+
 ## Question
 
 Eine Default-Deny-Egress-Policy wurde angewandt und Pods lösen keine DNS-Namen mehr auf. Welche Minimalregel stellt die Auflösung wieder her?

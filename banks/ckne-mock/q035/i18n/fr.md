@@ -1,3 +1,5 @@
+<!-- options-digest: 0901e8f867cc -->
+
 ## Question
 
 À propos du comportement des NetworkPolicies, quelle affirmation est correcte ?

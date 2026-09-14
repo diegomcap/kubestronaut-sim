@@ -1,3 +1,5 @@
+<!-- options-digest: 0901e8f867cc -->
+
 ## Question
 
 Welche Aussage zum Verhalten von NetworkPolicies ist korrekt?

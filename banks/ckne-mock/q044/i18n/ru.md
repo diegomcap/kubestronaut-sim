@@ -1,3 +1,5 @@
+<!-- options-digest: fc20b9624c09 -->
+
 ## Question
 
 Каковы два реальных ограничения нативных Kubernetes NetworkPolicies?

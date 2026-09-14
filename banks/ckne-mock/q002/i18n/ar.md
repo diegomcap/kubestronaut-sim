@@ -1,3 +1,5 @@
+<!-- options-digest: a7ce490dc852 -->
+
 ## Question
 
 أي مكوّن في Kubernetes يخصّص podCIDR لكل عقدة عند تفعيل --allocate-node-cidrs=true؟

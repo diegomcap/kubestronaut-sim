@@ -1,3 +1,5 @@
+<!-- options-digest: 89dfd0a5d603 -->
+
 ## Question
 
 Selon la spécification CNI, que fait la runtime de conteneurs quand un pod est créé ?

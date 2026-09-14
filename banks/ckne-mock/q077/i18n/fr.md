@@ -1,3 +1,5 @@
+<!-- options-digest: 1abd171b2219 -->
+
 ## Question
 
 Comment faire qu'un Service du cluster balance vers un backend EXTERNE à IPs fixes (ex. base legacy 192.168.10.5:5432), avec un nom DNS interne ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 766f4645d5c5 -->
+
 ## Question
 
 Eine HTTPRoute braucht backendRefs auf einen Service in einem ANDEREN Namespace. Was ist erforderlich?

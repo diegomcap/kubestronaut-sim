@@ -1,3 +1,5 @@
+<!-- options-digest: 31bb3e57cc6b -->
+
 ## Question
 
 ¿Por qué el enrutamiento con afinidad de PREFIJO del prompt (consciente de prefix-cache) mejora drásticamente la latencia en servidores LLM como vLLM?

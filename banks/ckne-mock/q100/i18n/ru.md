@@ -1,3 +1,5 @@
+<!-- options-digest: df598c42c5c6 -->
+
 ## Question
 
 Что пытается оптимизировать Topology Aware Routing с topology hints, например service.kubernetes.io/topology-mode: Auto, и каков компромисс?

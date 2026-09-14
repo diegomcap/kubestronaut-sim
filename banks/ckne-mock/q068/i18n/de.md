@@ -1,3 +1,5 @@
+<!-- options-digest: ee9fd246e1e8 -->
+
 ## Question
 
 Warum liefert `ip netns list` auf dem Node meist nichts, obwohl Dutzende Pods laufen — und welcher Befehl listet die echten Netzwerk-Namespaces?

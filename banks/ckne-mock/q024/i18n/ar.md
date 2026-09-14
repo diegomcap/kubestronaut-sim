@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 أي مشروع رسمي يوسّع Gateway API لتحسين توجيه حركة inference الخاصة بـ LLM على Kubernetes؟

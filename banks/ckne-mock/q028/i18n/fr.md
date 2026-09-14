@@ -1,3 +1,5 @@
+<!-- options-digest: f70cd231b9f4 -->
+
 ## Question
 
 Quelle API standardise la découverte de services multi-clusters (Multi-Cluster Services), et quel domaine DNS utilise-t-elle ?

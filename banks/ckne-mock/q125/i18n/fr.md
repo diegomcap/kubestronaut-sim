@@ -1,3 +1,5 @@
+<!-- options-digest: abdde3555967 -->
+
 ## Question
 
 Que sont les exemplars dans Prometheus et comment aident-ils à dépanner la latence réseau ?

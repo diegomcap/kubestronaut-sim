@@ -1,3 +1,5 @@
+<!-- options-digest: c3c006b41b9c -->
+
 ## Question
 
 تشير ExternalName Service إلى api.partner.com لكن العملاء يتصلون بـ https://my-alias.default.svc.cluster.local ويفشل TLS. لماذا؟

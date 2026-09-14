@@ -1,3 +1,5 @@
+<!-- options-digest: 2509f8c414a7 -->
+
 ## Question
 
 Какой manifest полностью изолирует все pods namespace — запрещает весь входящий И весь исходящий трафик?

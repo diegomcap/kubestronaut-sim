@@ -7,6 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"io/fs"
+	"log"
 	"os"
 	"path/filepath"
 	"sort"
@@ -53,6 +54,9 @@ type Manager struct {
 	path     string
 	bank     string
 	dur      time.Duration
+	// languageOK, when set, decides whether a language read from disk is
+	// one the bank ships; see WithLanguages.
+	languageOK func(string) bool
 	clock    func() time.Time
 	onExpire func()
 	timer    *time.Timer
@@ -155,7 +159,23 @@ func DrawnIDs(path string) ([]string, error) {
 	return append([]string(nil), doc.QuestionIDs...), nil
 }
 
-func New(path, bank string, dur time.Duration, clock func() time.Time, onExpire func()) (*Manager, error) {
+// An Option adjusts how New reads the file it is handed.
+type Option func(*Manager)
+
+// WithLanguages names the languages the bank can serve, the base language
+// included. A persisted attempt in any other language is kept, but its
+// language is dropped so the bank's own text is served — the guard sits
+// here, where the file is trusted, rather than on the one HTTP call site
+// that validates a language on the way in.
+func WithLanguages(languages []string) Option {
+	set := make(map[string]bool, len(languages))
+	for _, l := range languages {
+		set[l] = true
+	}
+	return func(m *Manager) { m.languageOK = func(l string) bool { return set[l] } }
+}
+
+func New(path, bank string, dur time.Duration, clock func() time.Time, onExpire func(), opts ...Option) (*Manager, error) {
 	m := &Manager{
 		path:     path,
 		bank:     bank,
@@ -163,6 +183,9 @@ func New(path, bank string, dur time.Duration, clock func() time.Time, onExpire 
 		clock:    clock,
 		onExpire: onExpire,
 		state:    stateIdle,
+	}
+	for _, opt := range opts {
+		opt(m)
 	}
 
 	raw, err := os.ReadFile(path)
@@ -216,6 +239,13 @@ func New(path, bank string, dur time.Duration, clock func() time.Time, onExpire 
 		PoolDigest:   doc.PoolDigest,
 		DomainFilter: doc.DomainFilter,
 		Language:     doc.Language,
+	}
+	if m.draw.Language != "" && m.languageOK != nil && !m.languageOK(m.draw.Language) {
+		// The file says the attempt was started in a language the bank no
+		// longer ships. The attempt is worth more than its language: keep
+		// it, serve the bank's own text, and note that we did.
+		log.Printf("session: attempt was started in language %q the bank does not ship; continuing in the bank's own", m.draw.Language)
+		m.draw.Language = ""
 	}
 	m.timeSpent = doc.TimeSpent
 	if doc.EndedAt != nil {

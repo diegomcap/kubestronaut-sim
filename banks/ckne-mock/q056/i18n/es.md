@@ -1,3 +1,5 @@
+<!-- options-digest: 979976d609af -->
+
 ## Question
 
 Al utilizar Multus con redes secundarias en varios nodos, ¿por qué el IPAM whereabouts es preferible a host-local?

@@ -1,3 +1,5 @@
+<!-- options-digest: 2c1d248f0739 -->
+
 ## Question
 
 En annonçant le même VIP LoadBalancer via BGP depuis plusieurs nœuds, quel mécanisme du routeur répartit le trafic ?

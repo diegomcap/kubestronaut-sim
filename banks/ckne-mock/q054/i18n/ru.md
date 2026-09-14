@@ -1,3 +1,5 @@
+<!-- options-digest: c89b7d7d5e22 -->
+
 ## Question
 
 Каково назначение массива «plugins» с несколькими элементами, например cilium, portmap, bandwidth, в файле CNI .conflist?

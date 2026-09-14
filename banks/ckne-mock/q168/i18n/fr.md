@@ -1,3 +1,5 @@
+<!-- options-digest: 28bf4a31677e -->
+
 ## Question
 
 Il vous faut une baseline de bande passante et latence pod-à-pod entre deux nœuds précis avant d'accuser le réseau de la lenteur applicative. Méthode directe ?

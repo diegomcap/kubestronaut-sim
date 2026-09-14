@@ -1,3 +1,5 @@
+<!-- options-digest: 7a270a526ac9 -->
+
 ## Question
 
 hubble observe montre des drops au verdict « Policy denied » dans le sens pod→kube-dns APRÈS l'application d'une policy egress au namespace. Les applis se plaignent de résolution de noms. La bonne lecture du flux ?

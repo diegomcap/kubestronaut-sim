@@ -1,3 +1,5 @@
+<!-- options-digest: ace972a5a821 -->
+
 ## Question
 
 Dans Cilium Cluster Mesh, comment rendre un Service disponible et balancé sur tous les clusters connectés ?

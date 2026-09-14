@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 Was erwarten Sie bei einem CNI im nativen Routing-Modus (ohne Kapselung) in `ip route` auf dem Node?

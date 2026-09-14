@@ -1,3 +1,5 @@
+<!-- options-digest: f62a1117c00f -->
+
 ## Question
 
 Quel est le moyen standardisé d'autoriser le trafic d'un namespace précis par NOM (ex. « monitoring ») dans une NetworkPolicy ?

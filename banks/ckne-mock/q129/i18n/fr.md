@@ -1,3 +1,5 @@
+<!-- options-digest: 95d57df659d8 -->
+
 ## Question
 
 Vous pinguez le ClusterIP d'un Service sans réponse, mais curl sur le port du Service marche parfaitement. Pourquoi ?

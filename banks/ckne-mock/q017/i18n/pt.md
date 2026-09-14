@@ -1,3 +1,5 @@
+<!-- options-digest: f406b8e66c9a -->
+
 ## Question
 
 Qual recurso substituiu o objeto Endpoints como mecanismo principal e escalável de rastreamento de backends de um Service?

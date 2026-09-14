@@ -1,3 +1,5 @@
+<!-- options-digest: 69ad52f9c8a6 -->
+
 ## Question
 
 إذا لم يتوفر kubectl exec، كيف تدخل network namespace الخاص بـ pod من العقدة لأغراض debug؟

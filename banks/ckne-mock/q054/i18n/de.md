@@ -1,3 +1,5 @@
+<!-- options-digest: c89b7d7d5e22 -->
+
 ## Question
 
 Wozu dient in einer CNI-.conflist-Datei das "plugins"-Array mit mehreren Einträgen (z. B. cilium, portmap, bandwidth)?

@@ -1,3 +1,5 @@
+<!-- options-digest: 225f5997d9ec -->
+
 ## Question
 
 كيف تسجل كل استعلامات DNS التي يستقبلها CoreDNS مؤقتاً لأغراض audit أو debug؟

@@ -1,3 +1,5 @@
+<!-- options-digest: b42d67569d39 -->
+
 ## Question
 
 TCP-соединения между узлами через VXLAN ведут себя странно: handshake проходит, но данные повреждаются или зависают. Известное решение — `ethtool -K flannel.1 tx-checksum-ip-generic off`. В чём исходная проблема?

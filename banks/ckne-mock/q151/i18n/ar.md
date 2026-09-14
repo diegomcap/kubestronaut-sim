@@ -1,3 +1,5 @@
+<!-- options-digest: 6bd3af57275a -->
+
 ## Question
 
 يجب ربط clusterين لهما pod CIDR متطابق، 10.244.0.0/16، عبر Submariner. هل هذا ممكن؟

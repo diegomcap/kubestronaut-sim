@@ -1,3 +1,5 @@
+<!-- options-digest: 45bf5ef70e4e -->
+
 ## Question
 
 Нужно опубликовать базу PostgreSQL TCP/5432 через Gateway с маршрутизацией L4. Какой ресурс Gateway API использовать?

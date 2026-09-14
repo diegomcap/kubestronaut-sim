@@ -1,3 +1,5 @@
+<!-- options-digest: 70c14052e5e6 -->
+
 ## Question
 
 Quelle est la différence entre ces deux règles d'ingress ?

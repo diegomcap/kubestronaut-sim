@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 Если в CNI включено node-to-node шифрование WireGuard, шифруется ли трафик между двумя pods на ОДНОМ узле?

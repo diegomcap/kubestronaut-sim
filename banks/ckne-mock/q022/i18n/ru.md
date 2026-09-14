@@ -1,3 +1,5 @@
+<!-- options-digest: 53091f5df13f -->
+
 ## Question
 
 Какой диапазон портов по умолчанию выделяется Services типа NodePort?

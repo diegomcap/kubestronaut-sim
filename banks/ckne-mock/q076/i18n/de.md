@@ -1,3 +1,5 @@
+<!-- options-digest: 456e733d9ff1 -->
+
 ## Question
 
 Welchen DNS-Record-Typ erzeugt Kubernetes zusätzlich zu A-Records für benannte Service-Ports, und in welchem Format?

@@ -1,3 +1,5 @@
+<!-- options-digest: 20c82ec212dc -->
+
 ## Question
 
 Duas rules de um HTTPRoute casam com a mesma requisição: uma com path /api e outra com /api/v2. Qual vence?

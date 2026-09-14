@@ -1,3 +1,5 @@
+<!-- options-digest: c6aef1551eb0 -->
+
 ## Question
 
 يحدد listener في Gateway اسم *.example.com، بينما يعلن HTTPRoute الأسماء app.example.com وapp.other.com. ماذا يحدث؟

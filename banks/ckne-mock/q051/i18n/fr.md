@@ -1,3 +1,5 @@
+<!-- options-digest: 3669f8299c0a -->
+
 ## Question
 
 Des connexions échouent par intermittence sous charge et dmesg montre « nf_conntrack: table full, dropping packet ». Quelle métrique le confirme, et quel correctif ?

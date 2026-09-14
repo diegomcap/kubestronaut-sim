@@ -1,3 +1,5 @@
+<!-- options-digest: 019a62e04658 -->
+
 ## Question
 
 Un cliente de alto throughput hacia el mismo destino empieza a fallar con "cannot assign requested address"; `ss -s` dentro del pod muestra decenas de miles de conexiones TIME_WAIT. ¿Cuál es el problema?

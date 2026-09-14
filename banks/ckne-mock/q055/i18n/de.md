@@ -1,3 +1,5 @@
+<!-- options-digest: 69ad52f9c8a6 -->
+
 ## Question
 
 Ohne kubectl exec: Wie betreten Sie vom Node aus den Netzwerk-Namespace eines Pods zum Debuggen?

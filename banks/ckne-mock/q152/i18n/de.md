@@ -1,3 +1,5 @@
+<!-- options-digest: fc53ccdd779b -->
+
 ## Question
 
 Beim Neustart des BGP-Agents (Cilium/Calico-Upgrade) fiel der Traffic der announcten VIPs ~30 s aus, bis die Session wieder stand. Welche zwei Mechanismen reduzieren das?

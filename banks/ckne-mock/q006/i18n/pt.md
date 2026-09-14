@@ -1,3 +1,5 @@
+<!-- options-digest: 2de98712ce92 -->
+
 ## Question
 
 Para dar a um pod uma segunda interface de rede (ex.: uma NIC dedicada para tráfego de storage), qual solução e recurso você usa?

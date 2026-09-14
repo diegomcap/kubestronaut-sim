@@ -1,3 +1,5 @@
+<!-- options-digest: 984e5a0098bb -->
+
 ## Question
 
 Quelle ressource de la Gateway API route les connexions TLS par SNI SANS les déchiffrer, et à quel mode de listener est-elle associée ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 2e13586639a5 -->
+
 ## Question
 
 Was liefert DNS bei einer Query auf einen headless Service (clusterIP: None) mit Selector?

@@ -1,3 +1,5 @@
+<!-- options-digest: 2de98712ce92 -->
+
 ## Question
 
 Pour donner à un pod une deuxième interface réseau (ex. une NIC dédiée au trafic de stockage), quelle solution et quelle ressource ?

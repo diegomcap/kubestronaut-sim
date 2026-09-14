@@ -1,3 +1,5 @@
+<!-- options-digest: 984e5a0098bb -->
+
 ## Question
 
 Какой ресурс Gateway API маршрутизирует TLS-соединения по SNI БЕЗ расшифровки и с каким режимом listener он связан?

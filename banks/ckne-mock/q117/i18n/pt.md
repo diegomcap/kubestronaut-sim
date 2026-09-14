@@ -1,3 +1,5 @@
+<!-- options-digest: b43a63fa8ba0 -->
+
 ## Question
 
 Com criptografia WireGuard node-to-node habilitada no CNI, o tráfego entre dois pods no MESMO nó é criptografado?

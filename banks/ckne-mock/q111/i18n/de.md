@@ -1,3 +1,5 @@
+<!-- options-digest: 99ec7f6ad2f7 -->
+
 ## Question
 
 Warum haben Service-Mesh-Workload-Zertifikate (SVIDs) kurze Lebensdauern (z. B. 24 h) und rotieren automatisch?

@@ -1,3 +1,5 @@
+<!-- options-digest: c1002dc0e2d7 -->
+
 ## Question
 
 في cluster bare-metal دون cloud provider تبقى Services من نوع LoadBalancer في pending. ما الحل وما نمطا تشغيله؟

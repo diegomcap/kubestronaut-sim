@@ -1,3 +1,5 @@
+<!-- options-digest: 019a62e04658 -->
+
 ## Question
 
 Um cliente de alta vazão para o mesmo destino começa a falhar com "cannot assign requested address"; `ss -s` no pod mostra dezenas de milhares de conexões TIME_WAIT. Qual é o problema?

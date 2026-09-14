@@ -1,3 +1,5 @@
+<!-- options-digest: 2a40ee4ea438 -->
+
 ## Question
 
 لماذا يجب ألا يتداخل --cluster-cidr الخاص بـ pods مع --service-cluster-ip-range الخاص بـ Services؟

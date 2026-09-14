@@ -1,3 +1,5 @@
+<!-- options-digest: c1002dc0e2d7 -->
+
 ## Question
 
 En un cluster bare-metal sin cloud provider, los Services LoadBalancer permanecen pending. ¿Qué solución lo corrige y cuáles son sus dos modos de operación?

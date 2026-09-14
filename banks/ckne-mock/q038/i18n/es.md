@@ -1,3 +1,5 @@
+<!-- options-digest: d58033c9867d -->
+
 ## Question
 
 Para cifrar de forma transparente todo el tráfico pod-a-pod entre nodos, sin modificar las aplicaciones, ¿qué función del CNI habilita?

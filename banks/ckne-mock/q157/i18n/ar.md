@@ -1,3 +1,5 @@
+<!-- options-digest: be8bc635cb1a -->
+
 ## Question
 
 تسمح INGRESS policy بالحركة إلى pod على المنفذ 8080، لكن لا توجد egress policy تسمح بردود الاتصال. هل تعمل الاتصالات؟

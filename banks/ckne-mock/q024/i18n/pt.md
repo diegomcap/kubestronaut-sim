@@ -1,3 +1,5 @@
+<!-- options-digest: 2f26693ecfa1 -->
+
 ## Question
 
 Qual projeto oficial estende o Gateway API para otimizar roteamento de tráfego de inferência de LLMs em Kubernetes?

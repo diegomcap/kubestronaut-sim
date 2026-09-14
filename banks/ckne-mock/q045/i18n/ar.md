@@ -1,3 +1,5 @@
+<!-- options-digest: 0d1da0e569dc -->
+
 ## Question
 
 طُبقت NetworkPolicy من نوع default-deny egress فتوقفت pods عن حل DNS. ما أقل قاعدة تعيد name resolution؟

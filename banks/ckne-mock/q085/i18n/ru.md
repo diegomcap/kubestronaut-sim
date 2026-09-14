@@ -1,3 +1,5 @@
+<!-- options-digest: 766f4645d5c5 -->
+
 ## Question
 
 HTTPRoute должен ссылаться через backendRefs на Service в ДРУГОМ namespace. Что требуется?

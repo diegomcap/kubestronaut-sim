@@ -1,3 +1,5 @@
+<!-- options-digest: df598c42c5c6 -->
+
 ## Question
 
 ¿Qué intenta optimizar Topology Aware Routing (topology hints, por ejemplo service.kubernetes.io/topology-mode: Auto) y cuál es la contrapartida?

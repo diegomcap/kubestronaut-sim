@@ -1,3 +1,5 @@
+<!-- options-digest: f406b8e66c9a -->
+
 ## Question
 
 Какой ресурс заменил объект Endpoints в качестве основного масштабируемого механизма отслеживания backends Service?

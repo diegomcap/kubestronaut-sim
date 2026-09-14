@@ -1,3 +1,5 @@
+<!-- options-digest: f936b4dc4f3b -->
+
 ## Question
 
 Welches Tool im Cilium-Ökosystem liefert Sichtbarkeit auf Netzwerk-Flows (L3–L7), inklusive Policy-Verdicts (FORWARDED/DROPPED)?

@@ -1,3 +1,5 @@
+<!-- options-digest: 85c22998c905 -->
+
 ## Question
 
 Após migrar o Calico de VXLAN para IPIP, o tráfego pod-a-pod entre nós parou APENAS no ambiente cloud. Causa provável?

@@ -1,3 +1,5 @@
+<!-- options-digest: 99ec7f6ad2f7 -->
+
 ## Question
 
 ¿Por qué los certificados de workload del service mesh (SVID) tienen una duración corta (por ejemplo, 24 h) y se rotan automáticamente?

@@ -1,3 +1,5 @@
+<!-- options-digest: 080c686524bf -->
+
 ## Question
 
 في CNI يعمل بوضع native routing دون encapsulation، ماذا تتوقع أن ترى في `ip route` على العقدة؟

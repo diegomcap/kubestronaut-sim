@@ -1,3 +1,5 @@
+<!-- options-digest: 28bf4a31677e -->
+
 ## Question
 
 Sie brauchen eine Bandbreiten- und Latenz-Baseline Pod-zu-Pod zwischen zwei bestimmten Nodes, bevor Sie das Netz für App-Langsamkeit verantwortlich machen. Direkte Methode?

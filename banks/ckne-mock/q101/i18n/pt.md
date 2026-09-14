@@ -1,3 +1,5 @@
+<!-- options-digest: cc4949cac0a3 -->
+
 ## Question
 
 Em um cluster sem NENHUMA NetworkPolicy aplicada, qual é a postura de rede padrão entre pods?

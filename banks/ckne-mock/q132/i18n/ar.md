@@ -1,3 +1,5 @@
+<!-- options-digest: 42d4f462dafc -->
+
 ## Question
 
 يستخدم CNI قيمة MTU 1450 على واجهات pods، وتدعم الشبكة الفيزيائية jumbo frames بحجم 9000. أي إعداد يعطي أفضل أداء مع VXLAN؟

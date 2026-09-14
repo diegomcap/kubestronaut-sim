@@ -1,3 +1,5 @@
+<!-- options-digest: cb8739a5ced2 -->
+
 ## Question
 
 Les requêtes streaming (SSE) d'un LLM derrière un Gateway sont coupées après ~30 s. Quel est le bon correctif ?

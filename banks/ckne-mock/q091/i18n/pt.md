@@ -1,3 +1,5 @@
+<!-- options-digest: e9f173214751 -->
+
 ## Question
 
 Os pod IPs da sua rede são roteáveis no datacenter, mas o tráfego para 10.0.0.0/8 interno ainda sai com SNAT do IP do nó. Como preservar o IP do pod nesses destinos?

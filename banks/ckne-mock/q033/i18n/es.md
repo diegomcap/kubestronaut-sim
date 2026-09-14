@@ -1,3 +1,5 @@
+<!-- options-digest: b1e983ffe96a -->
+
 ## Question
 
 En Cilium Cluster Mesh, ¿cuál es el requisito de red fundamental entre los clusters conectados?

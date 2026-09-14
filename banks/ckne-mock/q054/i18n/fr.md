@@ -1,3 +1,5 @@
+<!-- options-digest: c89b7d7d5e22 -->
+
 ## Question
 
 Dans un fichier CNI .conflist, à quoi sert le tableau "plugins" avec plusieurs entrées (ex. cilium, portmap, bandwidth) ?

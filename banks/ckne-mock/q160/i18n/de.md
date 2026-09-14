@@ -1,3 +1,5 @@
+<!-- options-digest: ba06e6e72b46 -->
+
 ## Question
 
 Mit PeerAuthentication im PERMISSIVE-Modus (Default) zeigt das Dashboard 'mTLS: enabled' und das Audit besteht. Was ist das versteckte Risiko?

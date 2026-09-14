@@ -1,3 +1,5 @@
+<!-- options-digest: 019a62e04658 -->
+
 ## Question
 
 Un client à fort débit vers la même destination échoue avec « cannot assign requested address » ; `ss -s` dans le pod montre des dizaines de milliers de connexions TIME_WAIT. Le problème ?

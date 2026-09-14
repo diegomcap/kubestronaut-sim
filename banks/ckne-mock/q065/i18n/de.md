@@ -1,3 +1,5 @@
+<!-- options-digest: 12ffcefc1f45 -->
+
 ## Question
 
 Welche Transformation erfährt Pod-Traffic standardmäßig, wenn er zu einem Ziel außerhalb des Clusters den Node verlässt?

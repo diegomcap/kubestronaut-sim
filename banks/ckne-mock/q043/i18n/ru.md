@@ -1,3 +1,5 @@
+<!-- options-digest: 163c56c76e26 -->
+
 ## Question
 
 Какой ресурс Istio реализует авторизацию L7, например чтобы только ServiceAccount «frontend» мог вызвать GET /api у сервиса «backend»?

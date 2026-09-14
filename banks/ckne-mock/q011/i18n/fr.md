@@ -1,3 +1,5 @@
+<!-- options-digest: 344a9c53591e -->
+
 ## Question
 
 Quel type de Service fournit un VIP interne au cluster avec balancing L4 (TCP/UDP/SCTP), sans exposition externe ?

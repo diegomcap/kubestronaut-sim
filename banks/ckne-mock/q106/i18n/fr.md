@@ -1,3 +1,5 @@
+<!-- options-digest: 89158e7736a6 -->
+
 ## Question
 
 En Calico, comment créer un deny explicite avec précédence sur les règles allow ?

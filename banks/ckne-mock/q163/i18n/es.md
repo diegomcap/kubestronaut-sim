@@ -1,3 +1,5 @@
+<!-- options-digest: f30ee4e1c718 -->
+
 ## Question
 
 Las aplicaciones informan de timeouts DNS intermitentes de EXACTAMENTE 5 segundos bajo carga. ¿Cuál es la causa clásica y la mitigación?

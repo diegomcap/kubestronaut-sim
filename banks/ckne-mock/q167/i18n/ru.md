@@ -1,3 +1,5 @@
+<!-- options-digest: 07307218a0e7 -->
+
 ## Question
 
 В сетевом dashboard Grafana по pod появились миллионы series, а Prometheus потребляет десятки гигабайт. Обычно главный источник проблемы — это:

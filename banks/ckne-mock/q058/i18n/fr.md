@@ -1,3 +1,5 @@
+<!-- options-digest: ba445d4aeaed -->
+
 ## Question
 
 Quelle commande montre les entrées de connection tracking (NAT/état) pour voir où la connexion d'un pod est traduite ?

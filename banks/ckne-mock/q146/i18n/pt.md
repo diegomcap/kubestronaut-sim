@@ -1,3 +1,5 @@
+<!-- options-digest: ffe91524c3bd -->
+
 ## Question
 
 Você configurou canary por peso (90/10) E uma rule que roteia o header x-beta: true para a v2. Um usuário com x-beta: true está caindo na v1 às vezes. O que revisar?

@@ -1,3 +1,5 @@
+<!-- options-digest: 5ea9fc69958a -->
+
 ## Question
 
 En Inference Extension, ¿cómo envía HTTPRoute el tráfico a un InferencePool en lugar de a un Service?

@@ -1,3 +1,5 @@
+<!-- options-digest: 0d3874d224a4 -->
+
 ## Question
 
 Pod с hostNetwork: true достигает pod, защищённых NetworkPolicy, которая разрешает только определённые podSelector, и доступ РАБОТАЕТ. Почему?

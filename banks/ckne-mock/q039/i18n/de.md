@@ -1,3 +1,5 @@
+<!-- options-digest: fb1a5b6cffce -->
+
 ## Question
 
 Welcher Mechanismus liefert gegenseitige Authentifizierung pro Workload (kryptografische Identität pro Pod) mit automatischem mTLS, typischerweise via Service Mesh?

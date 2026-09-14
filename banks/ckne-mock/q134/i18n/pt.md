@@ -1,3 +1,5 @@
+<!-- options-digest: 2a40ee4ea438 -->
+
 ## Question
 
 Por que o --cluster-cidr (pods) e o --service-cluster-ip-range JAMAIS podem se sobrepor?

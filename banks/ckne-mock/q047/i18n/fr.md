@@ -1,3 +1,5 @@
+<!-- options-digest: f936b4dc4f3b -->
+
 ## Question
 
 Quel outil de l'écosystème Cilium donne la visibilité sur les flux réseau (L3–L7), y compris les verdicts de policy (FORWARDED/DROPPED) ?

@@ -1,3 +1,5 @@
+<!-- options-digest: 07307218a0e7 -->
+
 ## Question
 
 Ihr Netzwerk-Grafana pro Pod hat Millionen Serien und Prometheus verbraucht Dutzende GB. Die größte Quelle des Problems ist meist:

@@ -1,3 +1,5 @@
+<!-- options-digest: 9ffff7924c62 -->
+
 ## Question
 
 ما القيد الرئيسي لوضع L2 أو ARP في إعلان LoadBalancer عبر MetalLB أو Cilium L2 Announcements؟

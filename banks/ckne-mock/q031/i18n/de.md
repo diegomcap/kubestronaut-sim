@@ -1,3 +1,5 @@
+<!-- options-digest: ac21133e62bb -->
+
 ## Question
 
 Wie implementieren Sie ein Canary-Release mit 10 % Traffic auf die neue Version per Gateway API?

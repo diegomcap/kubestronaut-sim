@@ -1,3 +1,5 @@
+<!-- options-digest: 42d32d1e302e -->
+
 ## Question
 
 Le dashboard montre une explosion de NXDOMAIN dans CoreDNS et l'équipe soupçonne une attaque. Les requêtes ressemblent à api.stripe.com.default.svc.cluster.local. Le bon diagnostic ?

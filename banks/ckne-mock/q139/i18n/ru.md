@@ -1,3 +1,5 @@
+<!-- options-digest: f03adc8265a0 -->
+
 ## Question
 
 При отладке `kubectl port-forward svc/my-api 8080:80` работает, но production-pod не могут вызвать тот же Service. Почему port-forward НЕ проверяет реальный сетевой путь?

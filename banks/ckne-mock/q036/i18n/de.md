@@ -1,3 +1,5 @@
+<!-- options-digest: 1d5867612fbe -->
+
 ## Question
 
 Wie erlauben Sie Egress eines Pods nur ins Subnetz 203.0.113.0/24, außer zum Host 203.0.113.9?

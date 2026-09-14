@@ -1,3 +1,5 @@
+<!-- options-digest: 4db5c15e96e7 -->
+
 ## Question
 
 Eliminó y volvió a crear un Service con el mismo nombre. Las aplicaciones que habían guardado la IP antigua dejaron de funcionar. ¿Qué lección de arquitectura refuerza esto?

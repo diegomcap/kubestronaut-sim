@@ -1,3 +1,5 @@
+<!-- options-digest: 090af8760ba8 -->
+
 ## Question
 
 El comando `dig app.default.svc.cluster.local` funciona dentro del pod, pero `dig app` falla. ¿Qué debemos comprobar primero?

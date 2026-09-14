@@ -1,3 +1,5 @@
+<!-- options-digest: fc53ccdd779b -->
+
 ## Question
 
 عند إعادة تشغيل BGP agent أثناء ترقية Cilium أو Calico ينقطع traffic إلى VIPs المعلنة نحو 30 ثانية. أي آليتين تقللان الأثر؟

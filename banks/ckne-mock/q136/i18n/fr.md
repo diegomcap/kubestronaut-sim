@@ -1,3 +1,5 @@
+<!-- options-digest: 4db5c15e96e7 -->
+
 ## Question
 
 Vous avez supprimé et recréé un Service du même nom. Les applis qui avaient mémorisé l'ancienne IP ont cassé. Quelle leçon d'architecture cela renforce-t-il ?

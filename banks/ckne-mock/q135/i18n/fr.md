@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 kubectl exec montre eth0 UP avec la bonne IP, mais RIEN n'entre ni ne sort. Sur le nœud, `ip link` montre le pair veth en état LOWERLAYERDOWN. Qu'est-ce que cela indique ?

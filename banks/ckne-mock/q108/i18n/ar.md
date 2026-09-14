@@ -1,3 +1,5 @@
+<!-- options-digest: ce0a3331308f -->
+
 ## Question
 
 كيف تتحقق من أن تشفير WireGuard في Cilium مفعّل فعلاً ويشفّر الحركة بين العقد؟

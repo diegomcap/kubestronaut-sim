@@ -1,3 +1,5 @@
+<!-- options-digest: c3e8ba51cf2a -->
+
 ## Question
 
 Pourquoi le simple round-robin est-il mauvais pour le trafic LLM, exigeant des stratégies spécifiques ?

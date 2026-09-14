@@ -1,3 +1,5 @@
+<!-- options-digest: 456e733d9ff1 -->
+
 ## Question
 
 Además de los registros A, ¿qué tipo de registro DNS crea Kubernetes para los puertos con nombre de un Service y con qué formato?

@@ -1,3 +1,5 @@
+<!-- options-digest: ba06e6e72b46 -->
+
 ## Question
 
 Con PeerAuthentication en modo PERMISSIVE (predeterminado), el dashboard muestra 'mTLS: enabled' y la auditoría se aprueba. ¿Cuál es el riesgo oculto?

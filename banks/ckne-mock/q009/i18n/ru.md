@@ -1,3 +1,5 @@
+<!-- options-digest: 89dfd0a5d603 -->
+
 ## Question
 
 Согласно спецификации CNI, что делает container runtime при создании pod?

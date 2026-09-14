@@ -1,3 +1,5 @@
+<!-- options-digest: 3669f8299c0a -->
+
 ## Question
 
 تفشل الاتصالات بشكل متقطع تحت الحمل ويعرض dmesg على العقدة: nf_conntrack: table full, dropping packet. أي metric تؤكد المشكلة وما الحل؟

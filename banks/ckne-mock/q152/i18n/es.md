@@ -1,3 +1,5 @@
+<!-- options-digest: fc53ccdd779b -->
+
 ## Question
 
 Al reiniciar el agente BGP (upgrade de Cilium/Calico) en un nodo, el tráfico hacia los VIP que anunciaba cayó durante unos 30 segundos hasta restablecerse la sesión. ¿Qué dos mecanismos reducen este impacto?

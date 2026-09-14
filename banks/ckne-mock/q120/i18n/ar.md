@@ -1,3 +1,5 @@
+<!-- options-digest: 40245eab31f5 -->
+
 ## Question
 
 عند تطبيق golden signals على شبكة الكلاستر، أي مجموعة تمثل latency وtraffic وerrors وsaturation؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 3081d8a36a37 -->
+
 ## Question
 
 ماذا يحدث لاتصالات جديدة نحو ClusterIP لخدمة لا تملك أي endpoint جاهز؟

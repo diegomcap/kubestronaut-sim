@@ -1,3 +1,5 @@
+<!-- options-digest: 45ad7068454e -->
+
 ## Question
 
 Gateway في namespace باسم infra وTLS Secret في apps. يشير listener إلى Secret لكن status يعرض RefNotPermitted. ما المفقود؟

@@ -1,3 +1,5 @@
+<!-- options-digest: 984e5a0098bb -->
+
 ## Question
 
 أي مورد في Gateway API يوجّه اتصالات TLS حسب SNI دون فك تشفيرها، ومع أي listener mode يرتبط؟

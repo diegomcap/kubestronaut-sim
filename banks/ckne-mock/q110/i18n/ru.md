@@ -1,3 +1,5 @@
+<!-- options-digest: d36af7ccfe60 -->
+
 ## Question
 
 Какой ресурс и режим Istio заставляют ВСЕ соединения, принимаемые workloads namespace, использовать mTLS и отклоняют plaintext?

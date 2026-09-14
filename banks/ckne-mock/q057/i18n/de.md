@@ -1,3 +1,5 @@
+<!-- options-digest: bafd00e52300 -->
+
 ## Question
 
 Pods hängen in ContainerCreating mit "failed to allocate for range 0: no IP addresses available in range". Diagnose und Fix?

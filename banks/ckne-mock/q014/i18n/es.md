@@ -1,3 +1,5 @@
+<!-- options-digest: d745a2a9eab5 -->
+
 ## Question
 
 Necesita reenviar todas las consultas del dominio interno corp.example.com al DNS corporativo 10.50.0.2. ¿Qué debe hacer en CoreDNS?

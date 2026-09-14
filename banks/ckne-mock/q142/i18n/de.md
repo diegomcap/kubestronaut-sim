@@ -1,3 +1,5 @@
+<!-- options-digest: 680442628fde -->
+
 ## Question
 
 Welchen DNS-Record erzeugt Kubernetes für einen einzelnen POD (ohne Service), und in welchem Format?

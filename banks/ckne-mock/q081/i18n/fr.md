@@ -1,3 +1,5 @@
+<!-- options-digest: 82bb4895b27a -->
+
 ## Question
 
 Que fait le champ internalTrafficPolicy: Local sur un Service ?

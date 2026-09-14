@@ -1,3 +1,5 @@
+<!-- options-digest: be8bc635cb1a -->
+
 ## Question
 
 INGRESS-policy разрешает трафик к pod на порт 8080, но нет egress-policy, явно разрешающей ответные пакеты. Будут ли соединения работать?

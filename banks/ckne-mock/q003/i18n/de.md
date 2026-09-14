@@ -1,3 +1,5 @@
+<!-- options-digest: 04934403c370 -->
+
 ## Question
 
 Sie müssen den Traffic eines bestimmten Pods direkt auf dem Node mitschneiden, ohne den Pod zu betreten. Was ist der richtige Ansatz?

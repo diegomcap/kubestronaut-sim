@@ -1,3 +1,5 @@
+<!-- options-digest: 913d072ad366 -->
+
 ## Question
 
 Quelle est la vraie différence entre hostPort (sur le pod) et un Service NodePort ?

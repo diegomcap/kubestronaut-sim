@@ -1,3 +1,5 @@
+<!-- options-digest: 3b31bd8f0cbe -->
+
 ## Question
 
 ¿Cuáles son los tres elementos principales de una CiliumEgressGatewayPolicy?

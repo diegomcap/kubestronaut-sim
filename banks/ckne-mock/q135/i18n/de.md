@@ -1,3 +1,5 @@
+<!-- options-digest: e3210407594b -->
+
 ## Question
 
 kubectl exec zeigt eth0 UP mit richtiger IP, aber NICHTS geht rein oder raus. Auf dem Node zeigt `ip link` den veth-Peer im Zustand LOWERLAYERDOWN. Was heißt das?
