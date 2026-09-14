@@ -50,16 +50,16 @@ const reasonExpired = "expired"
 var ErrConflict = errors.New("session: invalid state transition")
 
 type Manager struct {
-	mu       sync.Mutex
-	path     string
-	bank     string
-	dur      time.Duration
+	mu   sync.Mutex
+	path string
+	bank string
+	dur  time.Duration
 	// languageOK, when set, decides whether a language read from disk is
 	// one the bank ships; see WithLanguages.
 	languageOK func(string) bool
-	clock    func() time.Time
-	onExpire func()
-	timer    *time.Timer
+	clock      func() time.Time
+	onExpire   func()
+	timer      *time.Timer
 
 	mode       string
 	attemptDur time.Duration

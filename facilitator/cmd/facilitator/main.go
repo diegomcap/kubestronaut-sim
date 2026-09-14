@@ -137,7 +137,7 @@ func runServer() error {
 		if fn := onExpire.Load(); fn != nil {
 			(*fn)()
 		}
-	}, session.WithLanguages(ex.Languages()))
+	}, sessionOptions(ex)...)
 	if err != nil {
 		return fmt.Errorf("session: %w", err)
 	}
@@ -203,4 +203,16 @@ func runServer() error {
 	}
 	log.Printf("facilitator listening on %s", listen)
 	return srv.ListenAndServe()
+}
+
+// sessionOptions is what the session loader is told about the exam. With
+// no exam loaded — the lobby, before a bank is chosen — there is nothing
+// to check a persisted language against, so nothing is passed; the
+// attempt on disk, if any, belongs to a bank that is not the active one
+// and is handled by the bank check in session.New.
+func sessionOptions(ex *exam.Exam) []session.Option {
+	if ex == nil {
+		return nil
+	}
+	return []session.Option{session.WithLanguages(ex.Languages())}
 }

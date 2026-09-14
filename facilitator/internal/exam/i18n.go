@@ -37,7 +37,7 @@ type Translation struct {
 // that case so that a bank which never mentioned languages keeps its
 // pre-translations API shape.
 func (e *Exam) BaseLanguage() string {
-	if e.Language == "" {
+	if e == nil || e.Language == "" {
 		return DefaultLanguage
 	}
 	return e.Language
@@ -62,6 +62,9 @@ func TranslationPath(bankDir, qid, lang string) string {
 // Languages lists every language the bank can be sat in, the base
 // language first.
 func (e *Exam) Languages() []string {
+	if e == nil {
+		return nil
+	}
 	out := make([]string, 0, 1+len(e.Translations))
 	out = append(out, e.BaseLanguage())
 	out = append(out, e.Translations...)
@@ -74,6 +77,9 @@ func (e *Exam) Languages() []string {
 func (e *Exam) HasLanguage(lang string) bool {
 	if lang == "" || lang == e.BaseLanguage() {
 		return true
+	}
+	if e == nil {
+		return false
 	}
 	for _, t := range e.Translations {
 		if t == lang {
