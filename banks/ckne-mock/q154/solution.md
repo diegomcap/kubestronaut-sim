@@ -3,5 +3,5 @@
 Why the others are wrong:
 
 - **It is applied normally** — enforcement follows `policyTypes`; a direction not listed there is never evaluated, however many rules its section holds.
+- **It blocks all egress** — a deny-all effect only arises when `Egress` is in `policyTypes` and the rules match nothing; without `Egress` there, egress is not isolated at all.
 - **It causes a validation error** — the API server accepts the manifest: an `egress` section is a valid field regardless of `policyTypes`, which is exactly why the mistake is silent.
-- **It blocks all egress** — a deny-all effect only arises when `Egress` is in `policyTypes` and the rules match nothing. Without `Egress` there, egress is not isolated at all.

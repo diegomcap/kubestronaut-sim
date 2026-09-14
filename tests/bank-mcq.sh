@@ -263,6 +263,35 @@ for exam_path in sorted(glob.glob("banks/*/exam.yaml")):
                 fail(bank, f"{qid}/i18n/{lang}.md: `## Solution` is {len(parts['solution'])} characters, "
                            f"minimum {MIN_SOLUTION}")
 
+    # The solution contract: after the paragraph on the correct answer, a
+    # "Why the other(s) ... wrong" section with one bullet per distractor
+    # that bolds the option's text verbatim, so a candidate who picked it
+    # finds their own choice named and refuted. The length floor above
+    # cannot tell an explanation from a paragraph that only repeats why
+    # the key is right; this can.
+    WHY_RE = re.compile(r"(?m)^Why the other")
+    for q in questions:
+        qid = q["id"]
+        opts = parse_options(q["options"]) or []
+        correct = set(parse_correct(q["correct"]))
+        sol_path = os.path.join(bank_dir, qid, "solution.md")
+        if not os.path.isfile(sol_path):
+            continue
+        sol = open(sol_path, encoding="utf-8").read()
+        m = WHY_RE.search(sol)
+        if m is None:
+            fail(bank, f"{qid}/solution.md has no `Why the others are wrong` section — "
+                       f"a candidate who picked a distractor must find it named and refuted")
+            continue
+        tail = sol[m.start():]
+        for i, opt in enumerate(opts):
+            if i in correct:
+                continue
+            otext = scalar(opt)
+            if f"**{otext}**" not in tail:
+                fail(bank, f"{qid}/solution.md: no bullet bolds distractor {otext!r} verbatim "
+                           f"under the `Why the others are wrong` section")
+
     singles = [q for q in questions if q["multi"] == "false"]
     counts = {}
     for q in singles:

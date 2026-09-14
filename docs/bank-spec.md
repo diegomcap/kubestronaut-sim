@@ -485,9 +485,13 @@ Differences from the hands-on shape:
 6. No single option position is correct on more than half the
    single-answer questions. A degenerate key reads like a pattern.
 7. Every declared translation exists for every question, parses into
-   its three sections, carries exactly exam.yaml's option count, and
-   clears the explanation floor; no `i18n/` file exists for a language
-   the bank does not declare.
+   its three sections, carries exactly exam.yaml's option count and the
+   digest of that option list, and clears the explanation floor; no
+   `i18n/` file exists for a language the bank does not declare.
+8. Every `solution.md` has a `Why the other… wrong` section that bolds
+   each distractor's text verbatim in its own bullet, so a candidate
+   reviewing a wrong pick finds their own choice refuted, not only the
+   key explained.
 
 The weight-versus-content check has **two modes**:
 
